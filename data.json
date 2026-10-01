@@ -1,6 +1,334 @@
-{"updated":"2026-10-01T00:00:00Z","followers":3678,"gender":{"f":42.8,"m":57.2},"cities":[
-{"name":"São Paulo","uf":"SP","pct":41.1,"lon":-46.63,"lat":-23.55},
-{"name":"Rio de Janeiro","uf":"RJ","pct":4.5,"lon":-43.17,"lat":-22.91},
-{"name":"Belo Horizonte","uf":"MG","pct":2.0,"lon":-43.94,"lat":-19.92},
-{"name":"Guarulhos","uf":"SP","pct":1.9,"lon":-46.53,"lat":-23.46},
-{"name":"Porto Alegre","uf":"RS","pct":1.5,"lon":-51.23,"lat":-30.03}]}
+{
+ "updated": "2026-10-01T05:30:32.853Z",
+ "followers": 3678,
+ "gender": {
+  "f": 1275,
+  "m": 1703
+ },
+ "age": {
+  "13-17": 1.1,
+  "18-24": 18.2,
+  "25-34": 55.7,
+  "35-44": 16.5,
+  "45-54": 6,
+  "55-64": 1.9,
+  "65+": 0.7
+ },
+ "cities": [
+  {
+   "name": "São Paulo",
+   "uf": "SP",
+   "pct": 39.5,
+   "lon": -46.63,
+   "lat": -23.55
+  },
+  {
+   "name": "Rio de Janeiro",
+   "uf": "RJ",
+   "pct": 4.3,
+   "lon": -43.17,
+   "lat": -22.91
+  },
+  {
+   "name": "Belo Horizonte",
+   "uf": "MG",
+   "pct": 1.9,
+   "lon": -43.94,
+   "lat": -19.92
+  },
+  {
+   "name": "Guarulhos",
+   "uf": "SP",
+   "pct": 1.8,
+   "lon": -46.53,
+   "lat": -23.46
+  },
+  {
+   "name": "Porto Alegre",
+   "uf": "RS",
+   "pct": 1.4,
+   "lon": -51.23,
+   "lat": -30.03
+  },
+  {
+   "name": "Curitiba",
+   "uf": "PR",
+   "pct": 1.3,
+   "lon": -49.27,
+   "lat": -25.43
+  },
+  {
+   "name": "Osasco",
+   "uf": "SP",
+   "pct": 1.1,
+   "lon": -46.79,
+   "lat": -23.53
+  },
+  {
+   "name": "São Bernardo do Campo",
+   "uf": "SP",
+   "pct": 1.1,
+   "lon": -46.56,
+   "lat": -23.69
+  },
+  {
+   "name": "Salvador",
+   "uf": "BA",
+   "pct": 1,
+   "lon": -38.51,
+   "lat": -12.97
+  },
+  {
+   "name": "Santo André",
+   "uf": "SP",
+   "pct": 1,
+   "lon": -46.54,
+   "lat": -23.66
+  },
+  {
+   "name": "Campinas",
+   "uf": "SP",
+   "pct": 1,
+   "lon": -47.06,
+   "lat": -22.91
+  },
+  {
+   "name": "Fortaleza",
+   "uf": "CE",
+   "pct": 0.6,
+   "lon": -38.52,
+   "lat": -3.73
+  },
+  {
+   "name": "Florianópolis",
+   "uf": "SC",
+   "pct": 0.6,
+   "lon": -48.55,
+   "lat": -27.6
+  },
+  {
+   "name": "Recife",
+   "uf": "PE",
+   "pct": 0.5,
+   "lon": -34.88,
+   "lat": -8.05
+  },
+  {
+   "name": "Sorocaba",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": -47.45,
+   "lat": -23.5
+  },
+  {
+   "name": "Barueri",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Carapicuíba",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Goiânia",
+   "uf": "GO",
+   "pct": 0.5,
+   "lon": -49.25,
+   "lat": -16.68
+  },
+  {
+   "name": "Diadema",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Ribeirão Prêto",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": -47.81,
+   "lat": -21.18
+  },
+  {
+   "name": "São José dos Campos",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Jundiaí",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Bauru",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Mauá",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Maringá",
+   "uf": "PR",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Juiz de Fora",
+   "uf": "MG",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Taboão da Serra",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Mogi das Cruzes",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Maceió",
+   "uf": "AL",
+   "pct": 0.3,
+   "lon": -35.74,
+   "lat": -9.67
+  },
+  {
+   "name": "Vila Velha",
+   "uf": "ES",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Itaquaquecetuba",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Piracicaba",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Santos",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": -46.33,
+   "lat": -23.96
+  },
+  {
+   "name": "Niterói",
+   "uf": "RJ",
+   "pct": 0.3,
+   "lon": -43.1,
+   "lat": -22.88
+  },
+  {
+   "name": "Embu das Artes",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Suzano",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Vitória",
+   "uf": "ES",
+   "pct": 0.3,
+   "lon": -40.34,
+   "lat": -20.32
+  },
+  {
+   "name": "São José do Rio Prêto",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Belém",
+   "uf": "PA",
+   "pct": 0.3,
+   "lon": -48.5,
+   "lat": -1.46
+  },
+  {
+   "name": "São Gonçalo",
+   "uf": "RJ",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Duque de Caxias",
+   "uf": "RJ",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Ceilândia",
+   "uf": null,
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Cotia",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Aracaju",
+   "uf": "SE",
+   "pct": 0.2,
+   "lon": -37.07,
+   "lat": -10.91
+  },
+  {
+   "name": "Taguatinga",
+   "uf": null,
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  }
+ ]
+}
