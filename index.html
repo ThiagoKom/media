@@ -205,7 +205,7 @@ a{color:inherit!important;text-decoration:none!important}
     <div class="card p-5 md:p-8"><p class="num text-4xl md:text-7xl font-bold"><span data-to="10">10</span>x</p><p class="text-xs md:text-sm mute mt-4">views sobre a base de seguidores</p></div>
     <div class="card p-5 md:p-8"><p class="num text-4xl md:text-7xl font-bold"><span data-to="13">13</span>%</p><p class="text-xs md:text-sm mute mt-4">de interação nos Reels top</p></div>
   </div>
-  <p class="text-[11px] mute mt-3 px-2">Fonte: Instagram Insights, dados colhidos em outubro de 2026. Interação = curtidas, comentários, compartilhamentos e salvamentos sobre visualizações.</p>
+  <p class="text-[11px] mute mt-3 px-2">Fonte: Instagram Insights, dados atualizados ao vivo. Interação = curtidas, comentários, compartilhamentos e salvamentos sobre visualizações.</p>
 </section>
 
 <section class="pk-aud px-3 md:px-4 pt-3">
@@ -248,7 +248,7 @@ a{color:inherit!important;text-decoration:none!important}
     <div class="text-xs mute mt-4 text-center">Quanto mais escuro o estado, maior a presença do público na cidade de destaque dele. Cinza claro: sem cidade entre as principais. Guarulhos (1,9%) faz parte da Grande São Paulo.</div>
   </div>
   </div>
-  <p class="text-[11px] mute mt-3 px-2">Fonte: Instagram Insights, público, dados colhidos em outubro de 2026.</p>
+  <p class="text-[11px] mute mt-3 px-2">Fonte: Instagram Insights, público, dados atualizados ao vivo.</p>
 </section>
 
 <section id="reels" class="pk-reels py-16 md:py-24">
@@ -352,7 +352,7 @@ const paths=Object.entries(ST).map(([k,d])=>'<path d="'+d+'" fill="'+col(uf[k])+
 box.innerHTML='<div class="grid md:grid-cols-3 gap-3 mt-3"><div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Seguidores</p><p class="num text-7xl md:text-8xl font-bold">'+nf(D.followers,0)+'</p><p class="mute mt-3 mb-8">no Instagram, com crescimento orgânico. Os Reels chegam a 10x essa base.</p></div>'
 +'<div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Gênero</p><div class="flex items-center gap-6"><svg viewBox="0 0 100 100" class="w-32 h-32 flex-none -rotate-90"><circle cx="50" cy="50" r="40" fill="none" stroke="#0A0A0A" stroke-width="16" stroke-dasharray="'+fa+' 251.33"/><circle cx="50" cy="50" r="40" fill="none" stroke="#C9C9C2" stroke-width="16" stroke-dasharray="'+ma+' 251.33" stroke-dashoffset="-'+fa+'"/></svg><div class="space-y-3 text-sm w-full"><div class="flex justify-between"><span><span style="color:#0A0A0A">●</span> Mulheres</span><span class="mute">'+pc(D.gender.f/fm*100)+'</span></div><div class="flex justify-between"><span><span style="color:#C9C9C2">●</span> Homens</span><span class="mute">'+pc(D.gender.m/fm*100)+'</span></div></div></div></div>'
 +'<div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Principais cidades</p><div class="space-y-3">'+C.map(c=>'<div><div class="flex justify-between text-sm mb-1.5"><span>'+c.name+'</span><span class="mute">'+pc(c.pct)+'</span></div>'+bar(Math.max(4,c.pct/mx*100))+'</div>').join('')+'</div></div></div>'
-+'<div class="card p-7 md:p-10 mt-3"><p class="text-sm mute mb-6">Onde estão</p><div class="max-w-md mx-auto"><svg viewBox="0 0 470 400" class="w-full h-auto" role="img" aria-label="Mapa do Brasil por estados"><g stroke="#fff" stroke-width="1" stroke-linejoin="round">'+paths+'</g>'+dots+'</svg></div><div class="text-xs mute mt-4 text-center">Quanto mais escuro o estado, maior a presença do público nele. Atualizado em '+new Date(D.updated).toLocaleDateString('pt-BR')+'.</div></div>';
++'<div class="card p-7 md:p-10 mt-3"><p class="text-sm mute mb-6">Onde estão</p><div class="max-w-md mx-auto"><svg viewBox="0 0 470 400" class="w-full h-auto" role="img" aria-label="Mapa do Brasil por estados"><g stroke="#fff" stroke-width="1" stroke-linejoin="round">'+paths+'</g>'+dots+'</svg></div><div class="text-xs mute mt-4 text-center">Quanto mais escuro o estado, maior a presença do público nele. Atualizado ao vivo.</div></div>';
 if(D.age){const A=D.age,a={'13-17':A['13-17'],'18-24':A['18-24'],'25-34':A['25-34'],'35-44':A['35-44'],'45-54':A['45-54'],'55+':(A['55-64']||0)+(A['65+']||0)},m=Math.max(...Object.values(a).map(v=>v||0),1);
 document.querySelectorAll('.pk-aud .space-y-3 > div').forEach(el=>{const s=el.querySelectorAll('span'),b=el.querySelector('.h-2 > .h-2');if(s.length<2||!b)return;const k=s[0].textContent.trim().replace(/\s*a\s*/,'-');if(a[k]!=null){s[1].textContent=pc(a[k]);b.style.width=(a[k]/m*100)+'%'}})}
 }catch(e){}})();
