@@ -7,6 +7,12 @@
 <meta name="description" content="Thiago Berto (@justkom): designer de moda, estrategista, criador de conteúdo e DJ em São Paulo. Media kit para marcas.">
 <meta property="og:title" content="KOM · Media Kit">
 <meta property="og:description" content="Moda, comportamento e cultura em vídeos feitos para serem salvos e compartilhados. Thiago Berto, @justkom.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://thiagoberto.vercel.app/">
+<meta property="og:image" content="https://thiagoberto.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F4F4F1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230A0A0A'/%3E%3Ctext x='50' y='66' font-size='44' font-family='sans-serif' font-weight='700' fill='%23F4F4F1' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -177,7 +183,28 @@ a{color:inherit!important;text-decoration:none!important}
 .vs-link:hover{transform:scale(1.04)}
 .vs-link:focus-visible{outline:2px solid #F4F4F1;outline-offset:8px;border-radius:12px}
 @media print{.vs-link{width:30mm!important}.vs-logo{width:30mm!important;height:30mm!important}}
-@media print{.pk-photos .vs-bio{font-size:11px!important;margin-top:8px!important;max-width:none!important}}
+@media print{.pk-photos .vs-bio{font-size:11px!important;margin-top:8px!important;max-width:none!important;color:#4A4A47!important}}
+@media print{
+#ig-live .grid{gap:3mm!important;margin-top:3mm!important}
+#ig-live .card{padding:5mm!important}
+#ig-live .grid>.card>p:nth-child(1){margin-bottom:8px!important}
+#ig-live .grid>.card:first-child>p:nth-child(2){font-size:40px!important;line-height:1!important}
+#ig-live .grid>.card:first-child>p:nth-child(3){font-size:10px!important;margin:6px 0 0!important}
+#ig-live .grid>.card .flex.items-center{flex-direction:column!important;align-items:flex-start!important;gap:6px!important}
+#ig-live .grid>.card svg{width:64px!important;height:64px!important}
+#ig-live .grid .space-y-3>*+*{margin-top:7px!important}
+#ig-live>.card{margin-top:3mm!important;padding:5mm!important}
+.pk-aud .card>p:nth-child(2){font-size:44px!important}
+.pk-aud .card>p:nth-child(3){margin:4px 0 10px!important}
+.pk-aud .space-y-3>*+*{margin-top:5px!important}
+.pk-aud .card{padding:6mm!important}
+#ig-live>.card .max-w-md{max-width:46mm!important;margin:0 auto!important}
+#ig-live svg text{display:none!important}
+#ig-live>.card{padding:4mm 5mm!important}
+#ig-live>.card>p:first-child{margin-bottom:2px!important}
+#ig-live>.card .text-xs{margin-top:4px!important;font-size:8px!important}
+#ig-live .grid .space-y-3>*+*{margin-top:4px!important}
+}
 </style>
 </head>
 <body class="antialiased">
@@ -228,8 +255,8 @@ a{color:inherit!important;text-decoration:none!important}
   <div class="grid md:grid-cols-12 gap-3">
     <div class="card p-7 md:p-10 md:col-span-12">
       <p class="text-sm mute mb-6">Quem assiste</p>
-      <p class="num text-7xl md:text-8xl font-bold">73,6%</p>
-      <p class="mute mt-3 mb-8">do público tem entre 18 e 34 anos. A faixa de 25 a 34 é a maior.</p>
+      <p id="age-pct" class="num text-7xl md:text-8xl font-bold">73,6%</p>
+      <p id="age-text" class="mute mt-3 mb-8">do público tem entre 18 e 34 anos. A faixa de 25 a 34 é a maior.</p>
       <div class="space-y-3"><div><div class="flex justify-between text-sm mb-1.5"><span>13 a 17</span><span class="mute">1,2%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:2%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>18 a 24</span><span class="mute">17,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:31%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>25 a 34</span><span class="mute">56,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:100%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>35 a 44</span><span class="mute">16,8%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:30%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>45 a 54</span><span class="mute">6,1%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:11%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>55+</span><span class="mute">2,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:4%"></div></div></div></div>
     </div>
   </div>
@@ -283,8 +310,8 @@ a{color:inherit!important;text-decoration:none!important}
 
 <section class="pk-why px-3 md:px-4 py-16 md:py-24">
   <div class="grid md:grid-cols-3 gap-3">
-    <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Alcance de fora</h3><p class="mute leading-relaxed">O melhor Reel teve 10x o número de seguidores em views. Sua marca chega a quem ainda não conhece o perfil.</p></div>
-    <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Conteúdo que fica</h3><p class="mute leading-relaxed">1,9 mil salvamentos e 206 compartilhamentos nos 2 Reels de maior alcance.</p></div>
+    <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Alcance de fora</h3><p class="mute leading-relaxed">O melhor Reel teve <span id="rl-mult">10x</span> o número de seguidores em views. Sua marca chega a quem ainda não conhece o perfil.</p></div>
+    <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Conteúdo que fica</h3><p id="rl-saves" class="mute leading-relaxed">1,9 mil salvamentos e 206 compartilhamentos nos 2 Reels de maior alcance.</p></div>
     <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Da ideia à entrega</h3><p class="mute leading-relaxed">Moda, comunicação e produção em uma pessoa só: roteiro, gravação, edição e ativação.</p></div>
   </div>
 </section>
@@ -327,6 +354,7 @@ a{color:inherit!important;text-decoration:none!important}
   <p class="pk-mail">hello.justkom@gmail.com</p>
   <div class="noprint flex flex-wrap gap-4 mt-12">
     <a href="mailto:hello.justkom@gmail.com?subject=Parceria%20com%20KOM&body=Ol%C3%A1%2C%20vi%20seu%20media%20kit%20e%20gostaria%20de%20conversar." class="btn bg-[#F4F4F1] text-[#0A0A0A] px-8 py-4 text-sm">hello.justkom@gmail.com</a>
+    <button type="button" onclick="window.print()" class="btn border border-[#F4F4F1]/40 text-[#F4F4F1] px-8 py-4 text-sm">Baixar em PDF</button>
   </div>
   <div class="mt-14 text-xs opacity-60 flex gap-6 flex-wrap"><a href="https://instagram.com/justkom">@justkom</a><a href="https://linktr.ee/justkom">linktr.ee/justkom</a><a href="https://instagram.com/versuscollective">@versuscollective</a></div>
 </footer>
@@ -357,12 +385,21 @@ dots+='<circle cx="'+x.toFixed(0)+'" cy="'+y.toFixed(0)+'" r="'+r.toFixed(1)+'" 
 if(i<5&&!lab.some(l=>Math.hypot(l[0]-x,l[1]-y)<14)){lab.push([x,y]);const e=i==0&&c.lon<-45;
 dots+='<text x="'+(e?x-r-16:x+r+8).toFixed(0)+'" y="'+(y+4).toFixed(0)+'" text-anchor="'+(e?'end':'start')+'" font-size="12" fill="#0A0A0A">'+c.name+' <tspan fill="#6E6E6A">'+pc(c.pct)+'</tspan></text>'}});
 const paths=Object.entries(ST).map(([k,d])=>'<path d="'+d+'" fill="'+col(uf[k])+'"/>').join('');
-box.innerHTML='<div class="grid md:grid-cols-3 gap-3 mt-3"><div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Seguidores</p><p class="num text-7xl md:text-8xl font-bold">'+nf(D.followers,0)+'</p><p class="mute mt-3 mb-8">no Instagram, com crescimento orgânico. Os Reels chegam a 10x essa base.</p></div>'
+box.innerHTML='<div class="grid md:grid-cols-3 gap-3 mt-3"><div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Seguidores</p><p class="num text-7xl md:text-8xl font-bold">'+nf(D.followers,0)+'</p><p class="mute mt-3 mb-8">no Instagram, com crescimento orgânico. Os Reels chegam a '+(D.reels?D.reels.multiple:10)+'x essa base.</p></div>'
 +'<div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Gênero</p><div class="flex items-center gap-6"><svg viewBox="0 0 100 100" class="w-32 h-32 flex-none -rotate-90"><circle cx="50" cy="50" r="40" fill="none" stroke="#0A0A0A" stroke-width="16" stroke-dasharray="'+fa+' 251.33"/><circle cx="50" cy="50" r="40" fill="none" stroke="#C9C9C2" stroke-width="16" stroke-dasharray="'+ma+' 251.33" stroke-dashoffset="-'+fa+'"/></svg><div class="space-y-3 text-sm w-full"><div class="flex justify-between"><span><span style="color:#0A0A0A">●</span> Mulheres</span><span class="mute">'+pc(D.gender.f/fm*100)+'</span></div><div class="flex justify-between"><span><span style="color:#C9C9C2">●</span> Homens</span><span class="mute">'+pc(D.gender.m/fm*100)+'</span></div></div></div></div>'
 +'<div class="card p-7 md:p-10"><p class="text-sm mute mb-6">Principais cidades</p><div class="space-y-3">'+C.map(c=>'<div><div class="flex justify-between text-sm mb-1.5"><span>'+c.name+'</span><span class="mute">'+pc(c.pct)+'</span></div>'+bar(Math.max(4,c.pct/mx*100))+'</div>').join('')+'</div></div></div>'
 +'<div class="card p-7 md:p-10 mt-3"><p class="text-sm mute mb-6">Onde estão</p><div class="max-w-md mx-auto"><svg viewBox="0 0 470 400" class="w-full h-auto" role="img" aria-label="Mapa do Brasil por estados"><g stroke="#fff" stroke-width="1" stroke-linejoin="round">'+paths+'</g>'+dots+'</svg></div><div class="text-xs mute mt-4 text-center">Quanto mais escuro o estado, maior a presença do público nele. Atualizado ao vivo.</div></div>';
 if(D.age){const A=D.age,a={'13-17':A['13-17'],'18-24':A['18-24'],'25-34':A['25-34'],'35-44':A['35-44'],'45-54':A['45-54'],'55+':(A['55-64']||0)+(A['65+']||0)},m=Math.max(...Object.values(a).map(v=>v||0),1);
 document.querySelectorAll('.pk-aud .space-y-3 > div').forEach(el=>{const s=el.querySelectorAll('span'),b=el.querySelector('.h-2 > .h-2');if(s.length<2||!b)return;const k=s[0].textContent.trim().replace(/\s*a\s*/,'-');if(a[k]!=null){s[1].textContent=pc(a[k]);b.style.width=(a[k]/m*100)+'%'}})}
+if(D.age){const A=D.age,a={'13-17':A['13-17']||0,'18-24':A['18-24']||0,'25-34':A['25-34']||0,'35-44':A['35-44']||0,'45-54':A['45-54']||0,'55+':(A['55-64']||0)+(A['65+']||0)};
+const k=Object.keys(a).sort((x,y)=>a[y]-a[x])[0],e1=document.getElementById('age-pct'),e2=document.getElementById('age-text');
+if(e1)e1.textContent=pc(a['18-24']+a['25-34']);if(e2)e2.textContent='do público tem entre 18 e 34 anos. A faixa de '+k.replace('-',' a ')+' é a maior.'}
+if(D.reels){const R=D.reels,st=document.querySelectorAll('.pk-stats [data-to]'),u=R.best>=1e6?[1e6,' mi']:R.best>=1e3?[1e3,' mil']:[1,''];
+const put=(el,v,d)=>{if(el){el.dataset.to=v;el.dataset.dec=d;el.textContent=nf(v,d)}},cp=n=>n>=1e3?nf(n/1e3,n<1e4?1:0)+' mil':String(n);
+const bv=R.best/u[0];put(st[0],bv,u[0]>1&&bv<100?1:0);if(st[0]&&st[0].nextElementSibling)st[0].nextElementSibling.textContent=u[1];
+put(st[1],R.multiple,0);put(st[2],R.interaction,R.interaction<10?1:0);
+const m=document.getElementById('rl-mult'),sv=document.getElementById('rl-saves');
+if(m)m.textContent=R.multiple+'x';if(sv)sv.textContent=cp(R.saves)+' salvamentos e '+cp(R.shares)+' compartilhamentos nos 2 Reels de maior alcance.'}
 }catch(e){}})();
 </script>
 </body>
