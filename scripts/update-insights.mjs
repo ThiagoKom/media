@@ -1,5 +1,5 @@
 // Busca os dados do Instagram (Graph API) e grava data.json na raiz do repositório.
-import { writeFileSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
 const TOKEN = process.env.IG_TOKEN;
 let ID = process.env.IG_USER_ID; // opcional: se faltar, descobre sozinho pelo token da Página
 const G = 'https://graph.facebook.com/v24.0';
@@ -45,6 +45,47 @@ const gv = k => gen.find(g => g.k === k)?.v ?? 0;
 const ageTotal = age.reduce((s, a) => s + a.v, 0) || 1;
 const round = n => Math.round(n * 10) / 10;
 
+
+// ---- Reels: melhor Reel, múltiplo sobre seguidores, interação e salvamentos/compartilhamentos ----
+let reels = null;
+try {
+  const media = (await get(ID + '/media?fields=id,media_product_type,timestamp&limit=50')).data ?? [];
+  const items = media.filter(m => m.media_product_type === 'REELS').slice(0, 30);
+  const sets = ['views,reach,saved,shares,total_interactions', 'plays,reach,saved,shares,total_interactions'];
+  const num = d => d.values?.[0]?.value ?? d.total_value?.value ?? 0;
+  const rows = [];
+  for (const m of items) {
+    for (const set of sets) {
+      try {
+        const j = await get(m.id + '/insights?metric=' + set);
+        const o = Object.fromEntries((j.data ?? []).map(d => [d.name, num(d)]));
+        rows.push({ views: o.views ?? o.plays ?? 0, reach: o.reach ?? 0, saved: o.saved ?? 0, shares: o.shares ?? 0, inter: o.total_interactions ?? 0 });
+        break;
+      } catch (e) { /* tenta o próximo conjunto de métricas */ }
+    }
+  }
+  if (rows.length) {
+    const byViews = [...rows].sort((a, b) => b.views - a.views);
+    const top5 = byViews.slice(0, 5);
+    const topViews = top5.reduce((s, r) => s + r.views, 0) || 1;
+    const top2 = [...rows].sort((a, b) => b.reach - a.reach).slice(0, 2);
+    reels = {
+      best: byViews[0].views,
+      multiple: Math.max(1, Math.round(byViews[0].views / followers)),
+      interaction: round(top5.reduce((s, r) => s + r.inter, 0) / topViews * 100),
+      saves: top2.reduce((s, r) => s + r.saved, 0),
+      shares: top2.reduce((s, r) => s + r.shares, 0),
+      count: rows.length,
+    };
+  }
+} catch (e) {
+  console.log('Aviso: não consegui ler os Reels:', e.message);
+}
+// se falhar, mantém os últimos números de Reels já salvos
+if (!reels && existsSync('data.json')) {
+  try { reels = JSON.parse(readFileSync('data.json', 'utf-8')).reels ?? null; } catch (e) { /* segue sem Reels */ }
+}
+
 const cities = city.map(c => {
   const [name, ...rest] = c.k.split(',');
   const nm = name.trim();
@@ -56,6 +97,7 @@ const cities = city.map(c => {
 writeFileSync('data.json', JSON.stringify({
   updated: new Date().toISOString(),
   followers,
+  reels,
   gender: { f: gv('F'), m: gv('M') },
   age: Object.fromEntries(age.map(a => [a.k, round(a.v / ageTotal * 100)])),
   cities,
