@@ -1,6 +1,14 @@
 {
- "updated": "2026-10-02T02:56:25.584Z",
+ "updated": "2026-10-02T03:01:49.143Z",
  "followers": 3674,
+ "reels": {
+  "best": 36387,
+  "multiple": 10,
+  "interaction": 12.5,
+  "saves": 3894,
+  "shares": 1882,
+  "count": 29
+ },
  "gender": {
   "f": 1275,
   "m": 1703
