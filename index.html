@@ -51,7 +51,7 @@ a:hover .pl{transform:scale(1.12)}
 @keyframes mq{to{transform:translateX(-50%)}}
 .arrow{width:44px;height:44px;border-radius:99px;border:1px solid var(--line);background:#fff}
 
-@page{size:A4;margin:0}
+@page{size:A4;margin:12mm}@page cover{size:A4;margin:0}
 @media print{
 html,body{width:210mm!important;background:#F4F4F1!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;margin:0!important}
 :root{padding:0!important}
@@ -170,7 +170,7 @@ a{color:inherit!important;text-decoration:none!important}
 @keyframes plpulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.45)}70%,100%{box-shadow:0 0 0 16px rgba(255,255,255,0)}}
 @media (hover:hover){.rail a:hover .thumb,.rail a:focus-visible .thumb{opacity:1}.rail a:hover .thumb img,.rail a:focus-visible .thumb img{transform:scale(1)}}
 
-@media print{.cov .thumb,.cov::after{display:none!important}.cov .pl{animation:none!important;box-shadow:none!important}}
+@media print{.cov::after{display:none!important}.cov .pl{animation:none!important;box-shadow:none!important}}
 
 /* thumb de fundo (sempre visivel, suave, por baixo das cores) */
 .cov::before{transition:opacity .5s ease}
@@ -185,25 +185,23 @@ a{color:inherit!important;text-decoration:none!important}
 @media print{.vs-link{width:30mm!important}.vs-logo{width:30mm!important;height:30mm!important}}
 @media print{.pk-photos .vs-bio{font-size:11px!important;margin-top:8px!important;max-width:none!important;color:#4A4A47!important}}
 @media print{
-#ig-live .grid{gap:3mm!important;margin-top:3mm!important}
-#ig-live .card{padding:5mm!important}
-#ig-live .grid>.card>p:nth-child(1){margin-bottom:8px!important}
-#ig-live .grid>.card:first-child>p:nth-child(2){font-size:40px!important;line-height:1!important}
-#ig-live .grid>.card:first-child>p:nth-child(3){font-size:10px!important;margin:6px 0 0!important}
-#ig-live .grid>.card .flex.items-center{flex-direction:column!important;align-items:flex-start!important;gap:6px!important}
-#ig-live .grid>.card svg{width:64px!important;height:64px!important}
-#ig-live .grid .space-y-3>*+*{margin-top:7px!important}
-#ig-live>.card{margin-top:3mm!important;padding:5mm!important}
-.pk-aud .card>p:nth-child(2){font-size:44px!important}
-.pk-aud .card>p:nth-child(3){margin:4px 0 10px!important}
-.pk-aud .space-y-3>*+*{margin-top:5px!important}
-.pk-aud .card{padding:6mm!important}
-#ig-live>.card .max-w-md{max-width:46mm!important;margin:0 auto!important}
-#ig-live svg text{display:none!important}
-#ig-live>.card{padding:4mm 5mm!important}
-#ig-live>.card>p:first-child{margin-bottom:2px!important}
-#ig-live>.card .text-xs{margin-top:4px!important;font-size:8px!important}
-#ig-live .grid .space-y-3>*+*{margin-top:4px!important}
+html,body{width:auto!important}
+.pk1{page:cover;width:210mm!important;height:297mm!important;padding:12mm!important;break-after:page!important;page-break-after:always!important}
+.pk:not(.pk1){width:auto!important;height:auto!important;min-height:0!important;padding:0!important;overflow:visible!important;gap:5mm!important;break-after:auto!important;page-break-after:auto!important}
+.card,.pk-market,.pk-why>div,.pk-stats>div,.pk-work>div:last-child>*,.pk-reels,.pk-photos,#ig-live>div{break-inside:avoid!important}
+.pk-reels{background:transparent!important;border-radius:0!important;overflow:visible!important}
+.pk-aud .card{padding:7mm!important}
+#ig-live .grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:4mm!important;margin-top:4mm!important}
+#ig-live .card{padding:6mm!important;display:block!important}
+#ig-live .grid>.card>p:nth-child(1){margin-bottom:10px!important}
+#ig-live .grid>.card:first-child>p:nth-child(2){font-size:44px!important;line-height:1!important}
+#ig-live .grid>.card:first-child>p:nth-child(3){font-size:10.5px!important;margin:8px 0 0!important}
+#ig-live .grid>.card .flex.items-center{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:8px!important}
+#ig-live .grid>.card svg{width:70px!important;height:70px!important}
+#ig-live .grid .space-y-3>*+*{margin-top:8px!important}
+#ig-live>.card{margin-top:4mm!important;padding:6mm!important}
+#ig-live>.card .max-w-md{max-width:90mm!important;margin:0 auto!important}
+#ig-live>.card .text-xs{font-size:9px!important;margin-top:6px!important;text-align:center!important}
 }
 </style>
 </head>
@@ -354,7 +352,7 @@ a{color:inherit!important;text-decoration:none!important}
   <p class="pk-mail">hello.justkom@gmail.com</p>
   <div class="noprint flex flex-wrap gap-4 mt-12">
     <a href="mailto:hello.justkom@gmail.com?subject=Parceria%20com%20KOM&body=Ol%C3%A1%2C%20vi%20seu%20media%20kit%20e%20gostaria%20de%20conversar." class="btn bg-[#F4F4F1] text-[#0A0A0A] px-8 py-4 text-sm">hello.justkom@gmail.com</a>
-    <button type="button" onclick="window.print()" class="btn border border-[#F4F4F1]/40 text-[#F4F4F1] px-8 py-4 text-sm">Baixar em PDF</button>
+    <a href="kom-media-kit.pdf" download="KOM-Media-Kit.pdf" class="btn border border-[#F4F4F1]/40 text-[#F4F4F1] px-8 py-4 text-sm">Baixar em PDF</a>
   </div>
   <div class="mt-14 text-xs opacity-60 flex gap-6 flex-wrap"><a href="https://instagram.com/justkom">@justkom</a><a href="https://linktr.ee/justkom">linktr.ee/justkom</a><a href="https://instagram.com/versuscollective">@versuscollective</a></div>
 </footer>
