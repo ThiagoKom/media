@@ -1,0 +1,22 @@
+{
+  "name": "Gerar PDF do media kit",
+  "on": {
+    "workflow_dispatch": {},
+    "push": { "paths": ["index.html", "scripts/make-pdf.mjs"] },
+    "workflow_run": { "workflows": ["Atualizar insights do Instagram"], "types": ["completed"] }
+  },
+  "permissions": { "contents": "write" },
+  "concurrency": { "group": "gerar-pdf", "cancel-in-progress": false },
+  "jobs": {
+    "pdf": {
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        { "uses": "actions/checkout@v4" },
+        { "uses": "actions/setup-node@v4", "with": { "node-version": "20" } },
+        { "run": "npm install --no-save --no-package-lock puppeteer-core" },
+        { "run": "node scripts/make-pdf.mjs" },
+        { "name": "Commit se mudou", "run": "git config user.name insights-bot && git config user.email bot@users.noreply.github.com && git add kom-media-kit.pdf .pdf-hash && (git diff --staged --quiet || (git commit -m 'Atualiza PDF' && git pull --rebase && git push))" }
+      ]
+    }
+  }
+}
