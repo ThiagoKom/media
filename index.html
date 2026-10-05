@@ -204,6 +204,9 @@ html,body{width:auto!important}
 #ig-live>.card .max-w-md{max-width:90mm!important;margin:0 auto!important}
 #ig-live>.card .text-xs{font-size:9px!important;margin-top:6px!important;text-align:center!important}
 }
+#photos{scroll-snap-type:none!important;scroll-behavior:auto!important}
+#photos .ph{cursor:default}
+@media print{#photos .ph[aria-hidden="true"]{display:none!important}}
 </style>
 </head>
 <body class="antialiased">
@@ -360,8 +363,51 @@ html,body{width:auto!important}
 </div>
 
 <script>
-(function(){const ph=[...document.querySelectorAll("#photos .ph")];if(!ph.length)return;ph[0].classList.add("active");
-  ph.forEach(p=>p.addEventListener("click",()=>{ph.forEach(x=>x.classList.toggle("active",x===p));p.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})}))})();
+(function(){
+  const rail=document.getElementById("photos");if(!rail)return;
+  const orig=[...rail.querySelectorAll(".ph")];if(!orig.length)return;
+  const SPEED=70, PAUSE=1000; // velocidade (px/s) e pausa após toque ou clique (ms)
+  let pos=0,lastSet=0,lastInteract=-1e5,visible=true,setW=0,padL=24,prev=orig[0];
+  orig[0].classList.add("active");
+  const clone=p=>{const c=p.cloneNode(true);c.setAttribute("aria-hidden","true");c.classList.remove("active");return c};
+  function build(){
+    rail.querySelectorAll('.ph[aria-hidden="true"]').forEach(n=>n.remove());
+    const g=orig.map(clone);g.forEach(c=>rail.appendChild(c));
+    setW=g[0].offsetLeft-orig[0].offsetLeft;
+    if(setW<=0)return;
+    const need=Math.ceil(rail.clientWidth/setW);
+    for(let k=1;k<need;k++)orig.forEach(p=>rail.appendChild(clone(p)));
+    padL=parseFloat(getComputedStyle(rail).paddingLeft)||0;
+    pos=lastSet=rail.scrollLeft;
+  }
+  function mark(){
+    const x0=rail.getBoundingClientRect().left+padL;let best=null,bd=1e9;
+    for(const p of rail.children){const d=Math.abs(p.getBoundingClientRect().left-x0);if(d<bd){bd=d;best=p}}
+    if(best&&best!==prev){prev.classList.remove("active");best.classList.add("active");prev=best}
+  }
+  const user=()=>{lastInteract=performance.now()};
+  ["touchstart","pointerdown","wheel","keydown"].forEach(ev=>rail.addEventListener(ev,user,{passive:true}));
+  rail.addEventListener("scroll",()=>{
+    const sl=rail.scrollLeft;
+    if(Math.abs(sl-lastSet)>1.5){pos=sl;user()}
+    if(setW&&sl>=setW){rail.scrollLeft=pos=sl-setW;lastSet=pos}
+    else if(setW&&sl<=0&&performance.now()-lastInteract<PAUSE){rail.scrollLeft=pos=setW;lastSet=pos}
+  },{passive:true});
+  new IntersectionObserver(es=>{visible=es[0].isIntersecting},{rootMargin:"120px"}).observe(rail);
+  let last=performance.now();
+  function tick(now){
+    const dt=Math.min(now-last,64);last=now;
+    if(visible&&!document.hidden&&setW&&now-lastInteract>PAUSE){
+      pos+=SPEED*dt/1000;if(pos>=setW)pos-=setW;
+      lastSet=pos;rail.scrollLeft=pos;
+    }
+    if(visible)mark();
+    requestAnimationFrame(tick);
+  }
+  let rt;addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(build,200)});
+  addEventListener("load",()=>{build();requestAnimationFrame(tick)});
+  setTimeout(()=>{if(!setW)build()},800);
+})();
 function sc(d){const r=document.getElementById("photos");r.scrollBy({left:d*r.clientWidth*.6,behavior:"smooth"})}
 const fmt=(n,d)=>d?n.toFixed(d).replace(".",","):Math.round(n).toString();
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io.unobserve(e.target);
