@@ -51,7 +51,7 @@ a:hover .pl{transform:scale(1.12)}
 @keyframes mq{to{transform:translateX(-50%)}}
 .arrow{width:44px;height:44px;border-radius:99px;border:1px solid var(--line);background:#fff}
 
-@page{size:A4;margin:12mm}@page cover{size:A4;margin:0}
+@page{size:A4;margin:0}
 @media print{
 html,body{width:210mm!important;background:#F4F4F1!important;-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;margin:0!important}
 :root{padding:0!important}
@@ -185,13 +185,9 @@ a{color:inherit!important;text-decoration:none!important}
 @media print{.vs-link{width:30mm!important}.vs-logo{width:30mm!important;height:30mm!important}}
 @media print{.pk-photos .vs-bio{font-size:11px!important;margin-top:8px!important;max-width:none!important;color:#4A4A47!important}}
 @media print{
-html,body{width:auto!important}
-.pk1{page:cover;width:210mm!important;height:297mm!important;padding:12mm!important;break-after:page!important;page-break-after:always!important}
-.pk:not(.pk1){width:auto!important;height:auto!important;min-height:0!important;padding:0!important;overflow:visible!important;gap:5mm!important;break-after:auto!important;page-break-after:auto!important}
-.card,.pk-market,.pk-why>div,.pk-stats>div,.pk-work>div:last-child>*,.pk-reels,.pk-photos,#ig-live>div{break-inside:avoid!important}
+.pk:not(.pk1):not(.pk4){justify-content:space-between!important}
 .pk-reels{background:transparent!important;border-radius:0!important;overflow:visible!important}
 .ph img,#photos .ph img{filter:none!important}
-.pk-aud .card{padding:7mm!important}
 #ig-live .grid{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:4mm!important;margin-top:4mm!important}
 #ig-live .card{padding:6mm!important;display:block!important}
 #ig-live .grid>.card>p:nth-child(1){margin-bottom:10px!important}
@@ -203,6 +199,17 @@ html,body{width:auto!important}
 #ig-live>.card{margin-top:4mm!important;padding:6mm!important}
 #ig-live>.card .max-w-md{max-width:90mm!important;margin:0 auto!important}
 #ig-live>.card .text-xs{font-size:9px!important;margin-top:6px!important;text-align:center!important}
+.pk3b .pk-why .card{padding:8mm!important}
+.pk3b .pk-why h3{font-size:20px!important;margin-bottom:10px!important}
+.pk3b .pk-why .card p{font-size:13px!important}
+.pk3b .pk-work h2{font-size:36px!important}
+.pk3b .pk-work a.card{padding:10mm!important}
+.pk3b .pk-work a.card .num{font-size:64px!important;margin-top:20mm!important}
+.pk3b .pk-work a.card p:nth-child(3){font-size:12px!important;margin-top:12mm!important}
+.pk3b .pk-work .dark{padding:10mm!important}
+.pk3b .pk-work .dark p+p{font-size:19px!important}
+.pk3b .vs-link{width:40mm!important}
+.pk3b .vs-logo{width:40mm!important;height:40mm!important}
 }
 #photos{scroll-snap-type:none!important;scroll-behavior:auto!important}
 #photos .ph{cursor:default}
@@ -262,6 +269,8 @@ html,body{width:auto!important}
       <div class="space-y-3"><div><div class="flex justify-between text-sm mb-1.5"><span>13 a 17</span><span class="mute">1,2%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:2%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>18 a 24</span><span class="mute">17,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:31%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>25 a 34</span><span class="mute">56,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:100%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>35 a 44</span><span class="mute">16,8%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:30%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>45 a 54</span><span class="mute">6,1%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:11%"></div></div></div><div><div class="flex justify-between text-sm mb-1.5"><span>55+</span><span class="mute">2,3%</span></div><div class="h-2 rounded-full bg-[#ECECE7]"><div class="h-2 rounded-full bg-[#0A0A0A]" style="width:4%"></div></div></div></div>
     </div>
   </div>
+</section></div>
+<div class="pk pk3"><section class="pk-aud pk-aud2 px-3 md:px-4">
   <div id="ig-live">
   <div class="grid md:grid-cols-3 gap-3 mt-3">
     <div class="card p-7 md:p-10">
@@ -295,11 +304,6 @@ html,body{width:auto!important}
   </div>
   <p class="text-[11px] mute mt-3 px-2">Fonte: Instagram Insights, público, dados atualizados ao vivo.</p>
 </section>
-
-
-
-</div>
-<div class="pk pk3">
 <section class="pk-market dark mx-3 md:mx-4 rounded-[32px] px-6 md:px-14 py-14 md:py-20">
   <h2 class="text-3xl md:text-5xl font-light leading-tight max-w-3xl">Criadores de moda vendem</h2>
   <div class="grid md:grid-cols-3 gap-10 mt-10">
@@ -309,7 +313,8 @@ html,body{width:auto!important}
   </div>
   <p class="text-[11px] opacity-50 mt-8">Fontes: YOUPIX/Nielsen; Opinion Box/Influency.me; Abit/IEMI.</p>
 </section>
-
+</div>
+<div class="pk pk3b">
 <section class="pk-why px-3 md:px-4 py-16 md:py-24">
   <div class="grid md:grid-cols-3 gap-3">
     <div class="card p-7 md:p-9"><h3 class="text-2xl font-medium mb-3">Alcance de fora</h3><p class="mute leading-relaxed">O melhor Reel teve <span id="rl-mult">10x</span> o número de seguidores em views. Sua marca chega a quem ainda não conhece o perfil.</p></div>
