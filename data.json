@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-13T09:05:46.155Z",
- "followers": 3653,
+ "updated": "2026-10-14T09:19:25.713Z",
+ "followers": 3649,
  "reels": {
-  "best": 36430,
+  "best": 36434,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3892,
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.7,
+   "pct": 39.8,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -68,7 +68,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1.2,
    "lon": -46.79,
    "lat": -23.53
   },
