@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-15T09:19:20.683Z",
- "followers": 3643,
+ "updated": "2026-10-16T09:18:51.834Z",
+ "followers": 3641,
  "reels": {
-  "best": 36435,
+  "best": 36437,
   "multiple": 10,
   "interaction": 16.1,
-  "saves": 3892,
+  "saves": 3891,
   "shares": 1883,
   "count": 29
  },
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.8,
+   "pct": 39.9,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -40,7 +40,7 @@
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.9,
+   "pct": 2,
    "lon": -43.94,
    "lat": -19.92
   },
