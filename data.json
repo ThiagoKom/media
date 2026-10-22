@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-21T09:21:42.439Z",
- "followers": 3635,
+ "updated": "2026-10-22T09:22:29.867Z",
+ "followers": 3637,
  "reels": {
-  "best": 36447,
+  "best": 36453,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3889,
@@ -10,46 +10,46 @@
   "count": 29
  },
  "gender": {
-  "f": 1275,
-  "m": 1703
+  "f": 1273,
+  "m": 1683
  },
  "age": {
   "13-17": 1.1,
-  "18-24": 18.2,
+  "18-24": 17.8,
   "25-34": 55.7,
-  "35-44": 16.5,
+  "35-44": 16.8,
   "45-54": 6,
-  "55-64": 1.9,
+  "55-64": 2.1,
   "65+": 0.7
  },
  "cities": [
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.9,
+   "pct": 39.3,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.4,
+   "pct": 4.3,
    "lon": -43.17,
    "lat": -22.91
   },
   {
-   "name": "Belo Horizonte",
-   "uf": "MG",
-   "pct": 2,
-   "lon": -43.94,
-   "lat": -19.92
-  },
-  {
    "name": "Guarulhos",
    "uf": "SP",
-   "pct": 1.8,
+   "pct": 1.9,
    "lon": -46.53,
    "lat": -23.46
+  },
+  {
+   "name": "Belo Horizonte",
+   "uf": "MG",
+   "pct": 1.8,
+   "lon": -43.94,
+   "lat": -19.92
   },
   {
    "name": "Porto Alegre",
@@ -68,30 +68,16 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.2,
+   "pct": 1.1,
    "lon": -46.79,
    "lat": -23.53
   },
   {
    "name": "São Bernardo do Campo",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1,
    "lon": -46.56,
    "lat": -23.69
-  },
-  {
-   "name": "Salvador",
-   "uf": "BA",
-   "pct": 1,
-   "lon": -38.51,
-   "lat": -12.97
-  },
-  {
-   "name": "Santo André",
-   "uf": "SP",
-   "pct": 1,
-   "lon": -46.54,
-   "lat": -23.66
   },
   {
    "name": "Campinas",
@@ -99,6 +85,20 @@
    "pct": 1,
    "lon": -47.06,
    "lat": -22.91
+  },
+  {
+   "name": "Salvador",
+   "uf": "BA",
+   "pct": 0.9,
+   "lon": -38.51,
+   "lat": -12.97
+  },
+  {
+   "name": "Santo André",
+   "uf": "SP",
+   "pct": 0.9,
+   "lon": -46.54,
+   "lat": -23.66
   },
   {
    "name": "Fortaleza",
@@ -157,6 +157,13 @@
    "lat": null
   },
   {
+   "name": "Taboão da Serra",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Ribeirão Prêto",
    "uf": "SP",
    "pct": 0.4,
@@ -178,6 +185,13 @@
    "lat": null
   },
   {
+   "name": "Niterói",
+   "uf": "RJ",
+   "pct": 0.4,
+   "lon": -43.1,
+   "lat": -22.88
+  },
+  {
    "name": "Bauru",
    "uf": "SP",
    "pct": 0.4,
@@ -192,13 +206,6 @@
    "lat": null
   },
   {
-   "name": "Maringá",
-   "uf": "PR",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Juiz de Fora",
    "uf": "MG",
    "pct": 0.4,
@@ -206,29 +213,22 @@
    "lat": null
   },
   {
-   "name": "Taboão da Serra",
+   "name": "São Caetano do Sul",
    "uf": "SP",
-   "pct": 0.4,
+   "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "São Luís",
+   "uf": "MA",
+   "pct": 0.3,
+   "lon": -44.3,
+   "lat": -2.53
   },
   {
    "name": "Mogi das Cruzes",
    "uf": "SP",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Maceió",
-   "uf": "AL",
-   "pct": 0.3,
-   "lon": -35.74,
-   "lat": -9.67
-  },
-  {
-   "name": "Vila Velha",
-   "uf": "ES",
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -241,7 +241,7 @@
    "lat": null
   },
   {
-   "name": "Piracicaba",
+   "name": "Santana de Parnaíba",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
@@ -255,11 +255,18 @@
    "lat": -23.96
   },
   {
-   "name": "Niterói",
-   "uf": "RJ",
+   "name": "Piracicaba",
+   "uf": "SP",
    "pct": 0.3,
-   "lon": -43.1,
-   "lat": -22.88
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Maringá",
+   "uf": "PR",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Embu das Artes",
@@ -276,6 +283,13 @@
    "lat": null
   },
   {
+   "name": "São José do Rio Prêto",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Vitória",
    "uf": "ES",
    "pct": 0.3,
@@ -283,8 +297,8 @@
    "lat": -20.32
   },
   {
-   "name": "São José do Rio Prêto",
-   "uf": "SP",
+   "name": "Taguatinga",
+   "uf": null,
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -297,11 +311,11 @@
    "lat": -1.46
   },
   {
-   "name": "São Gonçalo",
-   "uf": "RJ",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
+   "name": "Maceió",
+   "uf": "AL",
+   "pct": 0.2,
+   "lon": -35.74,
+   "lat": -9.67
   },
   {
    "name": "Duque de Caxias",
@@ -318,22 +332,8 @@
    "lat": null
   },
   {
-   "name": "Cotia",
-   "uf": "SP",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Aracaju",
-   "uf": "SE",
-   "pct": 0.2,
-   "lon": -37.07,
-   "lat": -10.91
-  },
-  {
-   "name": "Taguatinga",
-   "uf": null,
+   "name": "São Gonçalo",
+   "uf": "RJ",
    "pct": 0.2,
    "lon": null,
    "lat": null
