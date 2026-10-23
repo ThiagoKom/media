@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-22T09:22:29.867Z",
- "followers": 3637,
+ "updated": "2026-10-23T09:20:27.905Z",
+ "followers": 3648,
  "reels": {
-  "best": 36453,
+  "best": 36459,
   "multiple": 10,
   "interaction": 16.1,
-  "saves": 3889,
+  "saves": 3887,
   "shares": 1883,
-  "count": 29
+  "count": 30
  },
  "gender": {
   "f": 1273,
-  "m": 1683
+  "m": 1684
  },
  "age": {
   "13-17": 1.1,
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.3,
+   "pct": 39.2,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -248,18 +248,18 @@
    "lat": null
   },
   {
-   "name": "Santos",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": -46.33,
-   "lat": -23.96
-  },
-  {
    "name": "Piracicaba",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Santos",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": -46.33,
+   "lat": -23.96
   },
   {
    "name": "Maringá",
@@ -311,25 +311,25 @@
    "lat": -1.46
   },
   {
-   "name": "Maceió",
-   "uf": "AL",
-   "pct": 0.2,
-   "lon": -35.74,
-   "lat": -9.67
-  },
-  {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
+   "name": "Praia Grande",
+   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Ceilândia",
-   "uf": null,
+   "name": "Vila Velha",
+   "uf": "ES",
    "pct": 0.2,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Aracaju",
+   "uf": "SE",
+   "pct": 0.2,
+   "lon": -37.07,
+   "lat": -10.91
   },
   {
    "name": "São Gonçalo",
