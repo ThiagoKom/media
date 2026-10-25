@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-24T09:14:06.003Z",
+ "updated": "2026-10-25T09:14:09.228Z",
  "followers": 3650,
  "reels": {
-  "best": 36470,
+  "best": 36471,
   "multiple": 10,
   "interaction": 16.1,
-  "saves": 3887,
+  "saves": 3886,
   "shares": 1883,
   "count": 30
  },
  "gender": {
   "f": 1281,
-  "m": 1684
+  "m": 1686
  },
  "age": {
   "13-17": 1.1,
-  "18-24": 17.8,
+  "18-24": 17.9,
   "25-34": 55.5,
-  "35-44": 16.8,
+  "35-44": 16.9,
   "45-54": 6,
   "55-64": 2.1,
   "65+": 0.7
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.3,
+   "pct": 39.2,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -40,14 +40,14 @@
   {
    "name": "Guarulhos",
    "uf": "SP",
-   "pct": 1.9,
+   "pct": 2,
    "lon": -46.53,
    "lat": -23.46
   },
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.9,
+   "pct": 1.8,
    "lon": -43.94,
    "lat": -19.92
   },
@@ -68,7 +68,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1.2,
    "lon": -46.79,
    "lat": -23.53
   },
@@ -80,25 +80,25 @@
    "lat": -23.69
   },
   {
-   "name": "Campinas",
-   "uf": "SP",
-   "pct": 1,
-   "lon": -47.06,
-   "lat": -22.91
-  },
-  {
    "name": "Salvador",
    "uf": "BA",
-   "pct": 0.9,
+   "pct": 1,
    "lon": -38.51,
    "lat": -12.97
   },
   {
    "name": "Santo André",
    "uf": "SP",
-   "pct": 0.9,
+   "pct": 1,
    "lon": -46.54,
    "lat": -23.66
+  },
+  {
+   "name": "Campinas",
+   "uf": "SP",
+   "pct": 1,
+   "lon": -47.06,
+   "lat": -22.91
   },
   {
    "name": "Fortaleza",
@@ -192,14 +192,14 @@
    "lat": null
   },
   {
-   "name": "Niterói",
-   "uf": "RJ",
+   "name": "Bauru",
+   "uf": "SP",
    "pct": 0.4,
-   "lon": -43.1,
-   "lat": -22.88
+   "lon": null,
+   "lat": null
   },
   {
-   "name": "Bauru",
+   "name": "Embu das Artes",
    "uf": "SP",
    "pct": 0.4,
    "lon": null,
@@ -255,22 +255,15 @@
    "lat": -23.96
   },
   {
-   "name": "Piracicaba",
-   "uf": "SP",
+   "name": "Niterói",
+   "uf": "RJ",
    "pct": 0.3,
-   "lon": null,
-   "lat": null
+   "lon": -43.1,
+   "lat": -22.88
   },
   {
    "name": "Maringá",
    "uf": "PR",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Embu das Artes",
-   "uf": "SP",
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -304,18 +297,25 @@
    "lat": -1.46
   },
   {
-   "name": "Maceió",
-   "uf": "AL",
-   "pct": 0.2,
-   "lon": -35.74,
-   "lat": -9.67
-  },
-  {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
+   "name": "Vila Velha",
+   "uf": "ES",
    "pct": 0.2,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Luanda",
+   "uf": null,
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Manaus",
+   "uf": "AM",
+   "pct": 0.2,
+   "lon": -60.02,
+   "lat": -3.12
   },
   {
    "name": "Aracaju",
