@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-25T09:14:09.228Z",
- "followers": 3650,
+ "updated": "2026-10-26T09:27:19.912Z",
+ "followers": 3645,
  "reels": {
-  "best": 36471,
+  "best": 36475,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3886,
@@ -16,7 +16,7 @@
  "age": {
   "13-17": 1.1,
   "18-24": 17.9,
-  "25-34": 55.5,
+  "25-34": 55.4,
   "35-44": 16.9,
   "45-54": 6,
   "55-64": 2.1,
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.2,
+   "pct": 39.3,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -40,14 +40,14 @@
   {
    "name": "Guarulhos",
    "uf": "SP",
-   "pct": 2,
+   "pct": 1.9,
    "lon": -46.53,
    "lat": -23.46
   },
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.8,
+   "pct": 1.9,
    "lon": -43.94,
    "lat": -19.92
   },
@@ -68,7 +68,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.2,
+   "pct": 1.1,
    "lon": -46.79,
    "lat": -23.53
   },
@@ -199,23 +199,9 @@
    "lat": null
   },
   {
-   "name": "Embu das Artes",
-   "uf": "SP",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Juiz de Fora",
    "uf": "MG",
    "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "São Caetano do Sul",
-   "uf": "SP",
-   "pct": 0.3,
    "lon": null,
    "lat": null
   },
@@ -269,6 +255,13 @@
    "lat": null
   },
   {
+   "name": "Embu das Artes",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Vitória",
    "uf": "ES",
    "pct": 0.3,
@@ -290,11 +283,25 @@
    "lat": null
   },
   {
+   "name": "Taguatinga",
+   "uf": null,
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Belém",
    "uf": "PA",
    "pct": 0.3,
    "lon": -48.5,
    "lat": -1.46
+  },
+  {
+   "name": "São Caetano do Sul",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Vila Velha",
@@ -304,8 +311,15 @@
    "lat": null
   },
   {
-   "name": "Luanda",
-   "uf": null,
+   "name": "Duque de Caxias",
+   "uf": "RJ",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Piracicaba",
+   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
@@ -316,20 +330,6 @@
    "pct": 0.2,
    "lon": -60.02,
    "lat": -3.12
-  },
-  {
-   "name": "Aracaju",
-   "uf": "SE",
-   "pct": 0.2,
-   "lon": -37.07,
-   "lat": -10.91
-  },
-  {
-   "name": "Taguatinga",
-   "uf": null,
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
   },
   {
    "name": "São Gonçalo",
