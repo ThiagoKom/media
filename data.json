@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-27T09:25:15.683Z",
+ "updated": "2026-10-28T09:32:06.906Z",
  "followers": 3642,
  "reels": {
-  "best": 36476,
+  "best": 36480,
   "multiple": 10,
   "interaction": 16.1,
-  "saves": 3886,
-  "shares": 1883,
+  "saves": 3887,
+  "shares": 1884,
   "count": 30
  },
  "gender": {
-  "f": 1279,
-  "m": 1685
+  "f": 1277,
+  "m": 1683
  },
  "age": {
   "13-17": 1.1,
-  "18-24": 17.9,
+  "18-24": 17.8,
   "25-34": 55.4,
   "35-44": 16.9,
   "45-54": 6,
@@ -33,7 +33,7 @@
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.2,
+   "pct": 4.3,
    "lon": -43.17,
    "lat": -22.91
   },
@@ -54,7 +54,7 @@
   {
    "name": "Porto Alegre",
    "uf": "RS",
-   "pct": 1.3,
+   "pct": 1.4,
    "lon": -51.23,
    "lat": -30.03
   },
@@ -129,13 +129,6 @@
    "lat": -23.5
   },
   {
-   "name": "Barueri",
-   "uf": "SP",
-   "pct": 0.5,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Carapicuíba",
    "uf": "SP",
    "pct": 0.5,
@@ -192,6 +185,13 @@
    "lat": null
   },
   {
+   "name": "Barueri",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Bauru",
    "uf": "SP",
    "pct": 0.4,
@@ -239,13 +239,6 @@
    "pct": 0.3,
    "lon": -43.1,
    "lat": -22.88
-  },
-  {
-   "name": "Aracaju",
-   "uf": "SE",
-   "pct": 0.3,
-   "lon": -37.07,
-   "lat": -10.91
   },
   {
    "name": "Maringá",
@@ -297,6 +290,13 @@
    "lat": -1.46
   },
   {
+   "name": "São Caetano do Sul",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "São Luís",
    "uf": "MA",
    "pct": 0.2,
@@ -332,11 +332,11 @@
    "lat": -3.12
   },
   {
-   "name": "São Gonçalo",
-   "uf": "RJ",
+   "name": "Aracaju",
+   "uf": "SE",
    "pct": 0.2,
-   "lon": null,
-   "lat": null
+   "lon": -37.07,
+   "lat": -10.91
   }
  ]
 }
