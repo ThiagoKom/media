@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-28T09:32:06.906Z",
- "followers": 3642,
+ "updated": "2026-10-29T09:34:58.552Z",
+ "followers": 3640,
  "reels": {
-  "best": 36480,
+  "best": 36487,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3887,
@@ -10,8 +10,8 @@
   "count": 30
  },
  "gender": {
-  "f": 1277,
-  "m": 1683
+  "f": 1276,
+  "m": 1682
  },
  "age": {
   "13-17": 1.1,
@@ -26,21 +26,21 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.3,
+   "pct": 39.2,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.3,
+   "pct": 4.2,
    "lon": -43.17,
    "lat": -22.91
   },
   {
    "name": "Guarulhos",
    "uf": "SP",
-   "pct": 1.9,
+   "pct": 2,
    "lon": -46.53,
    "lat": -23.46
   },
@@ -87,18 +87,18 @@
    "lat": -12.97
   },
   {
-   "name": "Santo André",
-   "uf": "SP",
-   "pct": 1,
-   "lon": -46.54,
-   "lat": -23.66
-  },
-  {
    "name": "Campinas",
    "uf": "SP",
    "pct": 1,
    "lon": -47.06,
    "lat": -22.91
+  },
+  {
+   "name": "Santo André",
+   "uf": "SP",
+   "pct": 0.9,
+   "lon": -46.54,
+   "lat": -23.66
   },
   {
    "name": "Fortaleza",
@@ -129,14 +129,14 @@
    "lat": -23.5
   },
   {
-   "name": "Carapicuíba",
+   "name": "Mauá",
    "uf": "SP",
    "pct": 0.5,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Mauá",
+   "name": "Carapicuíba",
    "uf": "SP",
    "pct": 0.5,
    "lon": null,
@@ -204,6 +204,13 @@
    "pct": 0.4,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "São Luís",
+   "uf": "MA",
+   "pct": 0.3,
+   "lon": -44.3,
+   "lat": -2.53
   },
   {
    "name": "Mogi das Cruzes",
@@ -290,18 +297,18 @@
    "lat": -1.46
   },
   {
+   "name": "São Gonçalo",
+   "uf": "RJ",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "São Caetano do Sul",
    "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
-  },
-  {
-   "name": "São Luís",
-   "uf": "MA",
-   "pct": 0.2,
-   "lon": -44.3,
-   "lat": -2.53
   },
   {
    "name": "Vila Velha",
@@ -323,13 +330,6 @@
    "pct": 0.2,
    "lon": null,
    "lat": null
-  },
-  {
-   "name": "Manaus",
-   "uf": "AM",
-   "pct": 0.2,
-   "lon": -60.02,
-   "lat": -3.12
   },
   {
    "name": "Aracaju",
