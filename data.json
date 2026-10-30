@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-29T09:34:58.552Z",
- "followers": 3640,
+ "updated": "2026-10-30T09:35:56.175Z",
+ "followers": 3638,
  "reels": {
-  "best": 36487,
+  "best": 36489,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3887,
@@ -10,13 +10,13 @@
   "count": 30
  },
  "gender": {
-  "f": 1276,
+  "f": 1275,
   "m": 1682
  },
  "age": {
   "13-17": 1.1,
   "18-24": 17.8,
-  "25-34": 55.4,
+  "25-34": 55.5,
   "35-44": 16.9,
   "45-54": 6,
   "55-64": 2.1,
@@ -87,18 +87,18 @@
    "lat": -12.97
   },
   {
+   "name": "Santo André",
+   "uf": "SP",
+   "pct": 1,
+   "lon": -46.54,
+   "lat": -23.66
+  },
+  {
    "name": "Campinas",
    "uf": "SP",
    "pct": 1,
    "lon": -47.06,
    "lat": -22.91
-  },
-  {
-   "name": "Santo André",
-   "uf": "SP",
-   "pct": 0.9,
-   "lon": -46.54,
-   "lat": -23.66
   },
   {
    "name": "Fortaleza",
@@ -234,13 +234,6 @@
    "lat": null
   },
   {
-   "name": "Santos",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": -46.33,
-   "lat": -23.96
-  },
-  {
    "name": "Niterói",
    "uf": "RJ",
    "pct": 0.3,
@@ -262,18 +255,18 @@
    "lat": null
   },
   {
-   "name": "Vitória",
-   "uf": "ES",
-   "pct": 0.3,
-   "lon": -40.34,
-   "lat": -20.32
-  },
-  {
    "name": "Suzano",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Vitória",
+   "uf": "ES",
+   "pct": 0.3,
+   "lon": -40.34,
+   "lat": -20.32
   },
   {
    "name": "São José do Rio Prêto",
@@ -311,13 +304,6 @@
    "lat": null
   },
   {
-   "name": "Vila Velha",
-   "uf": "ES",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Duque de Caxias",
    "uf": "RJ",
    "pct": 0.2,
@@ -325,11 +311,25 @@
    "lat": null
   },
   {
+   "name": "Santos",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": -46.33,
+   "lat": -23.96
+  },
+  {
    "name": "Piracicaba",
    "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Manaus",
+   "uf": "AM",
+   "pct": 0.2,
+   "lon": -60.02,
+   "lat": -3.12
   },
   {
    "name": "Aracaju",
