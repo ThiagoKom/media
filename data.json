@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-30T09:35:56.175Z",
- "followers": 3638,
+ "updated": "2026-10-31T14:52:22.871Z",
+ "followers": 3634,
  "reels": {
-  "best": 36489,
+  "best": 36496,
   "multiple": 10,
   "interaction": 16.1,
-  "saves": 3887,
+  "saves": 3886,
   "shares": 1884,
   "count": 30
  },
  "gender": {
   "f": 1275,
-  "m": 1682
+  "m": 1681
  },
  "age": {
   "13-17": 1.1,
   "18-24": 17.8,
-  "25-34": 55.5,
-  "35-44": 16.9,
+  "25-34": 55.4,
+  "35-44": 17,
   "45-54": 6,
   "55-64": 2.1,
   "65+": 0.7
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.2,
+   "pct": 39.3,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -47,14 +47,14 @@
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.9,
+   "pct": 1.8,
    "lon": -43.94,
    "lat": -19.92
   },
   {
    "name": "Porto Alegre",
    "uf": "RS",
-   "pct": 1.4,
+   "pct": 1.3,
    "lon": -51.23,
    "lat": -30.03
   },
@@ -101,6 +101,13 @@
    "lat": -22.91
   },
   {
+   "name": "Goiânia",
+   "uf": "GO",
+   "pct": 0.6,
+   "lon": -49.25,
+   "lat": -16.68
+  },
+  {
    "name": "Fortaleza",
    "uf": "CE",
    "pct": 0.6,
@@ -129,13 +136,6 @@
    "lat": -23.5
   },
   {
-   "name": "Mauá",
-   "uf": "SP",
-   "pct": 0.5,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Carapicuíba",
    "uf": "SP",
    "pct": 0.5,
@@ -143,11 +143,11 @@
    "lat": null
   },
   {
-   "name": "Goiânia",
-   "uf": "GO",
+   "name": "Mauá",
+   "uf": "SP",
    "pct": 0.5,
-   "lon": -49.25,
-   "lat": -16.68
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Diadema",
@@ -304,6 +304,13 @@
    "lat": null
   },
   {
+   "name": "Maceió",
+   "uf": "AL",
+   "pct": 0.2,
+   "lon": -35.74,
+   "lat": -9.67
+  },
+  {
    "name": "Duque de Caxias",
    "uf": "RJ",
    "pct": 0.2,
@@ -316,13 +323,6 @@
    "pct": 0.2,
    "lon": -46.33,
    "lat": -23.96
-  },
-  {
-   "name": "Piracicaba",
-   "uf": "SP",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
   },
   {
    "name": "Manaus",
