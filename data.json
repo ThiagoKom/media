@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-31T14:52:22.871Z",
+ "updated": "2026-11-01T15:30:50.154Z",
  "followers": 3634,
  "reels": {
-  "best": 36496,
+  "best": 36500,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3886,
@@ -11,13 +11,13 @@
  },
  "gender": {
   "f": 1275,
-  "m": 1681
+  "m": 1679
  },
  "age": {
   "13-17": 1.1,
-  "18-24": 17.8,
+  "18-24": 17.7,
   "25-34": 55.4,
-  "35-44": 17,
+  "35-44": 17.1,
   "45-54": 6,
   "55-64": 2.1,
   "65+": 0.7
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 39.3,
+   "pct": 39.2,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -47,7 +47,7 @@
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.8,
+   "pct": 1.9,
    "lon": -43.94,
    "lat": -19.92
   },
@@ -136,14 +136,14 @@
    "lat": -23.5
   },
   {
-   "name": "Carapicuíba",
+   "name": "Mauá",
    "uf": "SP",
    "pct": 0.5,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Mauá",
+   "name": "Carapicuíba",
    "uf": "SP",
    "pct": 0.5,
    "lon": null,
@@ -297,13 +297,6 @@
    "lat": null
   },
   {
-   "name": "São Caetano do Sul",
-   "uf": "SP",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Maceió",
    "uf": "AL",
    "pct": 0.2,
@@ -311,8 +304,22 @@
    "lat": -9.67
   },
   {
+   "name": "Vila Velha",
+   "uf": "ES",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Duque de Caxias",
    "uf": "RJ",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Piracicaba",
+   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
@@ -323,13 +330,6 @@
    "pct": 0.2,
    "lon": -46.33,
    "lat": -23.96
-  },
-  {
-   "name": "Manaus",
-   "uf": "AM",
-   "pct": 0.2,
-   "lon": -60.02,
-   "lat": -3.12
   },
   {
    "name": "Aracaju",
