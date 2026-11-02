@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-01T15:30:50.154Z",
+ "updated": "2026-11-02T18:53:54.930Z",
  "followers": 3634,
  "reels": {
-  "best": 36500,
+  "best": 36505,
   "multiple": 10,
   "interaction": 16.1,
   "saves": 3886,
@@ -10,8 +10,8 @@
   "count": 30
  },
  "gender": {
-  "f": 1275,
-  "m": 1679
+  "f": 1276,
+  "m": 1680
  },
  "age": {
   "13-17": 1.1,
@@ -297,6 +297,13 @@
    "lat": null
   },
   {
+   "name": "São Caetano do Sul",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Maceió",
    "uf": "AL",
    "pct": 0.2,
@@ -313,13 +320,6 @@
   {
    "name": "Duque de Caxias",
    "uf": "RJ",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Piracicaba",
-   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
