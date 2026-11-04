@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-03T16:39:49.503Z",
- "followers": 3671,
+ "updated": "2026-11-04T16:38:56.854Z",
+ "followers": 3697,
  "reels": {
-  "best": 36523,
-  "multiple": 10,
-  "interaction": 17.1,
-  "saves": 3886,
-  "shares": 1884,
+  "best": 9003,
+  "multiple": 2,
+  "interaction": 11.6,
+  "saves": 276,
+  "shares": 224,
   "count": 30
  },
  "gender": {
-  "f": 1276,
-  "m": 1678
+  "f": 1277,
+  "m": 1688
  },
  "age": {
   "13-17": 1.1,
-  "18-24": 17.7,
-  "25-34": 55.4,
+  "18-24": 17.8,
+  "25-34": 55.3,
   "35-44": 17.1,
   "45-54": 6,
   "55-64": 2.1,
@@ -26,7 +26,7 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 38.8,
+   "pct": 38.6,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -68,7 +68,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1.2,
    "lon": -46.79,
    "lat": -23.53
   },
@@ -89,14 +89,14 @@
   {
    "name": "Santo André",
    "uf": "SP",
-   "pct": 1,
+   "pct": 0.9,
    "lon": -46.54,
    "lat": -23.66
   },
   {
    "name": "Campinas",
    "uf": "SP",
-   "pct": 1,
+   "pct": 0.9,
    "lon": -47.06,
    "lat": -22.91
   },
@@ -262,18 +262,18 @@
    "lat": null
   },
   {
-   "name": "São José do Rio Prêto",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Vitória",
    "uf": "ES",
    "pct": 0.3,
    "lon": -40.34,
    "lat": -20.32
+  },
+  {
+   "name": "São José do Rio Prêto",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Taguatinga",
@@ -304,25 +304,25 @@
    "lat": -9.67
   },
   {
-   "name": "Praia Grande",
+   "name": "Duque de Caxias",
+   "uf": "RJ",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Piracicaba",
    "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Vila Velha",
-   "uf": "ES",
+   "name": "Manaus",
+   "uf": "AM",
    "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
+   "lon": -60.02,
+   "lat": -3.12
   },
   {
    "name": "Aracaju",
