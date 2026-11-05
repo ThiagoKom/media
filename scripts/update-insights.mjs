@@ -49,8 +49,8 @@ const round = n => Math.round(n * 10) / 10;
 // ---- Reels: melhor Reel, múltiplo sobre seguidores, interação e salvamentos/compartilhamentos ----
 let reels = null;
 try {
-  const media = (await get(ID + '/media?fields=id,media_product_type,timestamp&limit=50')).data ?? [];
-  const items = media.filter(m => m.media_product_type === 'REELS').slice(0, 30);
+  const media = (await get(ID + '/media?fields=id,media_product_type,timestamp&limit=70')).data ?? [];
+  const items = media.filter(m => m.media_product_type === 'REELS').slice(0, 40);
   const sets = ['views,reach,saved,shares,total_interactions', 'plays,reach,saved,shares,total_interactions'];
   const num = d => d.values?.[0]?.value ?? d.total_value?.value ?? 0;
   const rows = [];
