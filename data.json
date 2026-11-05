@@ -1,39 +1,39 @@
 {
- "updated": "2026-11-04T16:38:56.854Z",
- "followers": 3697,
+ "updated": "2026-11-05T16:54:51.276Z",
+ "followers": 3707,
  "reels": {
-  "best": 9003,
+  "best": 9009,
   "multiple": 2,
-  "interaction": 11.6,
+  "interaction": 11.2,
   "saves": 276,
   "shares": 224,
   "count": 30
  },
  "gender": {
-  "f": 1277,
-  "m": 1688
+  "f": 1286,
+  "m": 1716
  },
  "age": {
-  "13-17": 1.1,
-  "18-24": 17.8,
-  "25-34": 55.3,
+  "13-17": 1.2,
+  "18-24": 18,
+  "25-34": 55.1,
   "35-44": 17.1,
-  "45-54": 6,
+  "45-54": 5.9,
   "55-64": 2.1,
-  "65+": 0.7
+  "65+": 0.6
  },
  "cities": [
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 38.6,
+   "pct": 38.7,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.2,
+   "pct": 4.3,
    "lon": -43.17,
    "lat": -22.91
   },
@@ -47,7 +47,7 @@
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.8,
+   "pct": 1.9,
    "lon": -43.94,
    "lat": -19.92
   },
@@ -89,7 +89,7 @@
   {
    "name": "Santo André",
    "uf": "SP",
-   "pct": 0.9,
+   "pct": 1,
    "lon": -46.54,
    "lat": -23.66
   },
@@ -101,18 +101,18 @@
    "lat": -22.91
   },
   {
-   "name": "Goiânia",
-   "uf": "GO",
-   "pct": 0.6,
-   "lon": -49.25,
-   "lat": -16.68
-  },
-  {
    "name": "Fortaleza",
    "uf": "CE",
    "pct": 0.6,
    "lon": -38.52,
    "lat": -3.73
+  },
+  {
+   "name": "Goiânia",
+   "uf": "GO",
+   "pct": 0.6,
+   "lon": -49.25,
+   "lat": -16.68
   },
   {
    "name": "Florianópolis",
@@ -206,11 +206,25 @@
    "lat": null
   },
   {
+   "name": "São José do Rio Prêto",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Taboão da Serra",
    "uf": "SP",
    "pct": 0.4,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Belém",
+   "uf": "PA",
+   "pct": 0.4,
+   "lon": -48.5,
+   "lat": -1.46
   },
   {
    "name": "São Luís",
@@ -248,6 +262,13 @@
    "lat": -22.88
   },
   {
+   "name": "Manaus",
+   "uf": "AM",
+   "pct": 0.3,
+   "lon": -60.02,
+   "lat": -3.12
+  },
+  {
    "name": "Maringá",
    "uf": "PR",
    "pct": 0.3,
@@ -269,13 +290,6 @@
    "lat": -20.32
   },
   {
-   "name": "São José do Rio Prêto",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Taguatinga",
    "uf": null,
    "pct": 0.3,
@@ -283,16 +297,16 @@
    "lat": null
   },
   {
-   "name": "Belém",
-   "uf": "PA",
-   "pct": 0.3,
-   "lon": -48.5,
-   "lat": -1.46
-  },
-  {
    "name": "São Gonçalo",
    "uf": "RJ",
    "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "São Caetano do Sul",
+   "uf": "SP",
+   "pct": 0.2,
    "lon": null,
    "lat": null
   },
@@ -304,6 +318,13 @@
    "lat": -9.67
   },
   {
+   "name": "Praia Grande",
+   "uf": "SP",
+   "pct": 0.2,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Duque de Caxias",
    "uf": "RJ",
    "pct": 0.2,
@@ -312,27 +333,6 @@
   },
   {
    "name": "Piracicaba",
-   "uf": "SP",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Manaus",
-   "uf": "AM",
-   "pct": 0.2,
-   "lon": -60.02,
-   "lat": -3.12
-  },
-  {
-   "name": "Aracaju",
-   "uf": "SE",
-   "pct": 0.2,
-   "lon": -37.07,
-   "lat": -10.91
-  },
-  {
-   "name": "Suzano",
    "uf": "SP",
    "pct": 0.2,
    "lon": null,
