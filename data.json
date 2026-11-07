@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-06T16:23:02.521Z",
- "followers": 3713,
+ "updated": "2026-11-07T15:14:32.783Z",
+ "followers": 3734,
  "reels": {
-  "best": 28538,
-  "multiple": 8,
-  "interaction": 14.5,
-  "saves": 1778,
-  "shares": 842,
+  "best": 9020,
+  "multiple": 2,
+  "interaction": 11.1,
+  "saves": 276,
+  "shares": 224,
   "count": 40
  },
  "gender": {
-  "f": 1289,
-  "m": 1726
+  "f": 1290,
+  "m": 1729
  },
  "age": {
   "13-17": 1.2,
@@ -26,14 +26,14 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 38.8,
+   "pct": 38.5,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.4,
+   "pct": 4.3,
    "lon": -43.17,
    "lat": -22.91
   },
@@ -101,18 +101,18 @@
    "lat": -22.91
   },
   {
-   "name": "Fortaleza",
-   "uf": "CE",
-   "pct": 0.6,
-   "lon": -38.52,
-   "lat": -3.73
-  },
-  {
    "name": "Goiânia",
    "uf": "GO",
    "pct": 0.6,
    "lon": -49.25,
    "lat": -16.68
+  },
+  {
+   "name": "Fortaleza",
+   "uf": "CE",
+   "pct": 0.6,
+   "lon": -38.52,
+   "lat": -3.73
   },
   {
    "name": "Florianópolis",
@@ -178,13 +178,6 @@
    "lat": null
   },
   {
-   "name": "Itaquaquecetuba",
-   "uf": "SP",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Barueri",
    "uf": "SP",
    "pct": 0.4,
@@ -206,13 +199,6 @@
    "lat": null
   },
   {
-   "name": "São José do Rio Prêto",
-   "uf": "SP",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Taboão da Serra",
    "uf": "SP",
    "pct": 0.4,
@@ -220,11 +206,11 @@
    "lat": null
   },
   {
-   "name": "Belém",
-   "uf": "PA",
-   "pct": 0.4,
-   "lon": -48.5,
-   "lat": -1.46
+   "name": "São Caetano do Sul",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "São Luís",
@@ -235,6 +221,13 @@
   },
   {
    "name": "Mogi das Cruzes",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Itaquaquecetuba",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
@@ -290,11 +283,25 @@
    "lat": -20.32
   },
   {
+   "name": "São José do Rio Prêto",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Taguatinga",
    "uf": null,
    "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Belém",
+   "uf": "PA",
+   "pct": 0.3,
+   "lon": -48.5,
+   "lat": -1.46
   },
   {
    "name": "São Gonçalo",
@@ -318,13 +325,6 @@
    "lat": null
   },
   {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Piracicaba",
    "uf": "SP",
    "pct": 0.2,
@@ -332,11 +332,11 @@
    "lat": null
   },
   {
-   "name": "Aracaju",
-   "uf": "SE",
+   "name": "Suzano",
+   "uf": "SP",
    "pct": 0.2,
-   "lon": -37.07,
-   "lat": -10.91
+   "lon": null,
+   "lat": null
   }
  ]
 }
