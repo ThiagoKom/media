@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-07T15:14:32.783Z",
- "followers": 3734,
+ "updated": "2026-11-08T15:38:35.297Z",
+ "followers": 3749,
  "reels": {
-  "best": 9020,
+  "best": 9031,
   "multiple": 2,
   "interaction": 11.1,
   "saves": 276,
@@ -10,14 +10,14 @@
   "count": 40
  },
  "gender": {
-  "f": 1290,
-  "m": 1729
+  "f": 1292,
+  "m": 1736
  },
  "age": {
   "13-17": 1.2,
-  "18-24": 18,
-  "25-34": 55.2,
-  "35-44": 17,
+  "18-24": 18.1,
+  "25-34": 55.1,
+  "35-44": 16.9,
   "45-54": 5.9,
   "55-64": 2.1,
   "65+": 0.6
@@ -33,7 +33,7 @@
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.3,
+   "pct": 4.4,
    "lon": -43.17,
    "lat": -22.91
   },
@@ -68,7 +68,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.2,
+   "pct": 1.1,
    "lon": -46.79,
    "lat": -23.53
   },
@@ -101,18 +101,18 @@
    "lat": -22.91
   },
   {
-   "name": "Goiânia",
-   "uf": "GO",
-   "pct": 0.6,
-   "lon": -49.25,
-   "lat": -16.68
-  },
-  {
    "name": "Fortaleza",
    "uf": "CE",
    "pct": 0.6,
    "lon": -38.52,
    "lat": -3.73
+  },
+  {
+   "name": "Goiânia",
+   "uf": "GO",
+   "pct": 0.6,
+   "lon": -49.25,
+   "lat": -16.68
   },
   {
    "name": "Florianópolis",
@@ -262,6 +262,13 @@
    "lat": -3.12
   },
   {
+   "name": "Aracaju",
+   "uf": "SE",
+   "pct": 0.3,
+   "lon": -37.07,
+   "lat": -10.91
+  },
+  {
    "name": "Maringá",
    "uf": "PR",
    "pct": 0.3,
@@ -276,18 +283,18 @@
    "lat": null
   },
   {
-   "name": "Vitória",
-   "uf": "ES",
-   "pct": 0.3,
-   "lon": -40.34,
-   "lat": -20.32
-  },
-  {
    "name": "São José do Rio Prêto",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Vitória",
+   "uf": "ES",
+   "pct": 0.3,
+   "lon": -40.34,
+   "lat": -20.32
   },
   {
    "name": "Taguatinga",
@@ -311,13 +318,6 @@
    "lat": null
   },
   {
-   "name": "Maceió",
-   "uf": "AL",
-   "pct": 0.2,
-   "lon": -35.74,
-   "lat": -9.67
-  },
-  {
    "name": "Praia Grande",
    "uf": "SP",
    "pct": 0.2,
@@ -325,14 +325,14 @@
    "lat": null
   },
   {
-   "name": "Piracicaba",
-   "uf": "SP",
+   "name": "Duque de Caxias",
+   "uf": "RJ",
    "pct": 0.2,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Suzano",
+   "name": "Cotia",
    "uf": "SP",
    "pct": 0.2,
    "lon": null,
