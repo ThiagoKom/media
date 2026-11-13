@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-13T14:27:07.089Z",
- "followers": 3852,
+ "updated": "2026-11-13T16:49:01.418Z",
+ "followers": 3869,
  "reels": {
-  "best": 6945,
+  "best": 7796,
   "multiple": 2,
-  "interaction": 11,
-  "saves": 586,
-  "shares": 195,
+  "interaction": 11.4,
+  "saves": 665,
+  "shares": 214,
   "count": 40
  },
  "gender": {
@@ -26,14 +26,14 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 37.7,
+   "pct": 37.6,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.4,
+   "pct": 4.3,
    "lon": -43.17,
    "lat": -22.91
   },
