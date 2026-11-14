@@ -1,32 +1,32 @@
 {
- "updated": "2026-11-13T16:49:01.418Z",
- "followers": 3869,
+ "updated": "2026-11-14T15:23:20.166Z",
+ "followers": 3988,
  "reels": {
-  "best": 7796,
-  "multiple": 2,
-  "interaction": 11.4,
-  "saves": 665,
-  "shares": 214,
+  "best": 15423,
+  "multiple": 4,
+  "interaction": 12.7,
+  "saves": 1190,
+  "shares": 434,
   "count": 40
  },
  "gender": {
-  "f": 1301,
-  "m": 1771
+  "f": 1321,
+  "m": 1783
  },
  "age": {
   "13-17": 1.3,
-  "18-24": 18.2,
-  "25-34": 55.1,
-  "35-44": 16.9,
-  "45-54": 5.8,
-  "55-64": 2,
-  "65+": 0.7
+  "18-24": 18,
+  "25-34": 55,
+  "35-44": 17,
+  "45-54": 6,
+  "55-64": 2.1,
+  "65+": 0.6
  },
  "cities": [
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 37.6,
+   "pct": 36.6,
    "lon": -46.63,
    "lat": -23.55
   },
@@ -73,18 +73,18 @@
    "lat": -23.53
   },
   {
-   "name": "São Bernardo do Campo",
-   "uf": "SP",
-   "pct": 1,
-   "lon": -46.56,
-   "lat": -23.69
-  },
-  {
    "name": "Salvador",
    "uf": "BA",
-   "pct": 1,
+   "pct": 1.1,
    "lon": -38.51,
    "lat": -12.97
+  },
+  {
+   "name": "São Bernardo do Campo",
+   "uf": "SP",
+   "pct": 0.9,
+   "lon": -46.56,
+   "lat": -23.69
   },
   {
    "name": "Santo André",
@@ -136,6 +136,13 @@
    "lat": -23.5
   },
   {
+   "name": "Mauá",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Carapicuíba",
    "uf": "SP",
    "pct": 0.5,
@@ -185,13 +192,6 @@
    "lat": null
   },
   {
-   "name": "Mauá",
-   "uf": "SP",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Embu das Artes",
    "uf": "SP",
    "pct": 0.4,
@@ -201,13 +201,6 @@
   {
    "name": "Juiz de Fora",
    "uf": "MG",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Taguatinga",
-   "uf": null,
    "pct": 0.4,
    "lon": null,
    "lat": null
@@ -236,6 +229,20 @@
   {
    "name": "Mogi das Cruzes",
    "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Maceió",
+   "uf": "AL",
+   "pct": 0.3,
+   "lon": -35.74,
+   "lat": -9.67
+  },
+  {
+   "name": "Duque de Caxias",
+   "uf": "RJ",
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -290,6 +297,13 @@
    "lat": null
   },
   {
+   "name": "Taguatinga",
+   "uf": null,
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "Belém",
    "uf": "PA",
    "pct": 0.3,
@@ -304,29 +318,8 @@
    "lat": null
   },
   {
-   "name": "Maceió",
-   "uf": "AL",
-   "pct": 0.2,
-   "lon": -35.74,
-   "lat": -9.67
-  },
-  {
-   "name": "Praia Grande",
-   "uf": "SP",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Vila Velha",
    "uf": "ES",
-   "pct": 0.2,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
    "pct": 0.2,
    "lon": null,
    "lat": null
@@ -337,6 +330,13 @@
    "pct": 0.2,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "Aracaju",
+   "uf": "SE",
+   "pct": 0.2,
+   "lon": -37.07,
+   "lat": -10.91
   }
  ]
 }
