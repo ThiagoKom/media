@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-15T15:56:01.414Z",
- "followers": 4049,
+ "updated": "2026-11-16T18:59:01.185Z",
+ "followers": 4092,
  "reels": {
-  "best": 17563,
-  "multiple": 4,
-  "interaction": 12.6,
-  "saves": 1316,
-  "shares": 508,
+  "best": 19282,
+  "multiple": 5,
+  "interaction": 12.8,
+  "saves": 1445,
+  "shares": 555,
   "count": 40
  },
  "gender": {
-  "f": 1431,
-  "m": 1812
+  "f": 1473,
+  "m": 1819
  },
  "age": {
   "13-17": 1.2,
-  "18-24": 17.4,
-  "25-34": 53.7,
+  "18-24": 17.2,
+  "25-34": 53.1,
   "35-44": 17.4,
-  "45-54": 7.2,
-  "55-64": 2.3,
+  "45-54": 7.7,
+  "55-64": 2.6,
   "65+": 0.7
  },
  "cities": [
@@ -38,18 +38,18 @@
    "lat": -22.91
   },
   {
-   "name": "Guarulhos",
-   "uf": "SP",
-   "pct": 1.9,
-   "lon": -46.53,
-   "lat": -23.46
-  },
-  {
    "name": "Belo Horizonte",
    "uf": "MG",
    "pct": 1.9,
    "lon": -43.94,
    "lat": -19.92
+  },
+  {
+   "name": "Guarulhos",
+   "uf": "SP",
+   "pct": 1.8,
+   "lon": -46.53,
+   "lat": -23.46
   },
   {
    "name": "Porto Alegre",
@@ -101,18 +101,25 @@
    "lat": -22.91
   },
   {
+   "name": "Fortaleza",
+   "uf": "CE",
+   "pct": 0.7,
+   "lon": -38.52,
+   "lat": -3.73
+  },
+  {
+   "name": "Recife",
+   "uf": "PE",
+   "pct": 0.6,
+   "lon": -34.88,
+   "lat": -8.05
+  },
+  {
    "name": "Goiânia",
    "uf": "GO",
    "pct": 0.6,
    "lon": -49.25,
    "lat": -16.68
-  },
-  {
-   "name": "Fortaleza",
-   "uf": "CE",
-   "pct": 0.6,
-   "lon": -38.52,
-   "lat": -3.73
   },
   {
    "name": "Florianópolis",
@@ -122,11 +129,11 @@
    "lat": -27.6
   },
   {
-   "name": "Recife",
-   "uf": "PE",
+   "name": "Ribeirão Prêto",
+   "uf": "SP",
    "pct": 0.5,
-   "lon": -34.88,
-   "lat": -8.05
+   "lon": -47.81,
+   "lat": -21.18
   },
   {
    "name": "Sorocaba",
@@ -134,6 +141,13 @@
    "pct": 0.5,
    "lon": -47.45,
    "lat": -23.5
+  },
+  {
+   "name": "Barueri",
+   "uf": "SP",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Mauá",
@@ -150,18 +164,11 @@
    "lat": null
   },
   {
-   "name": "Diadema",
-   "uf": "SP",
-   "pct": 0.5,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Ribeirão Prêto",
+   "name": "São José dos Campos",
    "uf": "SP",
    "pct": 0.4,
-   "lon": -47.81,
-   "lat": -21.18
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Jundiaí",
@@ -178,21 +185,14 @@
    "lat": -22.88
   },
   {
-   "name": "Barueri",
-   "uf": "SP",
+   "name": "Juiz de Fora",
+   "uf": "MG",
    "pct": 0.4,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Embu das Artes",
-   "uf": "SP",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Taboão da Serra",
+   "name": "Diadema",
    "uf": "SP",
    "pct": 0.4,
    "lon": null,
@@ -221,13 +221,6 @@
   },
   {
    "name": "Mogi das Cruzes",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "São José dos Campos",
    "uf": "SP",
    "pct": 0.3,
    "lon": null,
@@ -269,8 +262,8 @@
    "lat": null
   },
   {
-   "name": "Juiz de Fora",
-   "uf": "MG",
+   "name": "Embu das Artes",
+   "uf": "SP",
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -297,6 +290,13 @@
    "lat": null
   },
   {
+   "name": "Taboão da Serra",
+   "uf": "SP",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
    "name": "São Gonçalo",
    "uf": "RJ",
    "pct": 0.3,
@@ -311,8 +311,8 @@
    "lat": -9.67
   },
   {
-   "name": "Vila Velha",
-   "uf": "ES",
+   "name": "Praia Grande",
+   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
@@ -325,11 +325,11 @@
    "lat": null
   },
   {
-   "name": "Piracicaba",
-   "uf": "SP",
+   "name": "Aracaju",
+   "uf": "SE",
    "pct": 0.2,
-   "lon": null,
-   "lat": null
+   "lon": -37.07,
+   "lat": -10.91
   },
   {
    "name": "Suzano",
