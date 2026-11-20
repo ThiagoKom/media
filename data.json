@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-19T17:46:01.419Z",
- "followers": 4183,
+ "updated": "2026-11-20T17:23:20.833Z",
+ "followers": 4203,
  "reels": {
-  "best": 22656,
-  "multiple": 5,
-  "interaction": 13.9,
-  "saves": 1705,
-  "shares": 694,
+  "best": 23180,
+  "multiple": 6,
+  "interaction": 14.1,
+  "saves": 1891,
+  "shares": 791,
   "count": 40
  },
  "gender": {
-  "f": 1548,
-  "m": 1850
+  "f": 1560,
+  "m": 1863
  },
  "age": {
   "13-17": 1.3,
-  "18-24": 17,
-  "25-34": 52.4,
-  "35-44": 17.6,
-  "45-54": 8.1,
+  "18-24": 16.9,
+  "25-34": 52.1,
+  "35-44": 17.8,
+  "45-54": 8.2,
   "55-64": 2.8,
   "65+": 0.8
  },
@@ -26,16 +26,23 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 36.5,
+   "pct": 36.4,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.6,
+   "pct": 4.7,
    "lon": -43.17,
    "lat": -22.91
+  },
+  {
+   "name": "Belo Horizonte",
+   "uf": "MG",
+   "pct": 1.9,
+   "lon": -43.94,
+   "lat": -19.92
   },
   {
    "name": "Guarulhos",
@@ -45,16 +52,9 @@
    "lat": -23.46
   },
   {
-   "name": "Belo Horizonte",
-   "uf": "MG",
-   "pct": 1.8,
-   "lon": -43.94,
-   "lat": -19.92
-  },
-  {
    "name": "Porto Alegre",
    "uf": "RS",
-   "pct": 1.4,
+   "pct": 1.5,
    "lon": -51.23,
    "lat": -30.03
   },
@@ -110,9 +110,16 @@
   {
    "name": "Florianópolis",
    "uf": "SC",
-   "pct": 0.6,
+   "pct": 0.7,
    "lon": -48.55,
    "lat": -27.6
+  },
+  {
+   "name": "Goiânia",
+   "uf": "GO",
+   "pct": 0.6,
+   "lon": -49.25,
+   "lat": -16.68
   },
   {
    "name": "Ribeirão Prêto",
@@ -155,13 +162,6 @@
    "pct": 0.5,
    "lon": null,
    "lat": null
-  },
-  {
-   "name": "Goiânia",
-   "uf": "GO",
-   "pct": 0.5,
-   "lon": -49.25,
-   "lat": -16.68
   },
   {
    "name": "São Luís",
@@ -325,15 +325,15 @@
    "lat": null
   },
   {
-   "name": "Duque de Caxias",
-   "uf": "RJ",
+   "name": "Praia Grande",
+   "uf": "SP",
    "pct": 0.2,
    "lon": null,
    "lat": null
   },
   {
-   "name": "Luanda",
-   "uf": null,
+   "name": "Duque de Caxias",
+   "uf": "RJ",
    "pct": 0.2,
    "lon": null,
    "lat": null
