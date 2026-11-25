@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-24T19:45:27.415Z",
- "followers": 4257,
+ "updated": "2026-11-25T18:52:30.752Z",
+ "followers": 4628,
  "reels": {
-  "best": 28683,
-  "multiple": 7,
-  "interaction": 16.2,
-  "saves": 3430,
-  "shares": 1539,
+  "best": 28819,
+  "multiple": 6,
+  "interaction": 17.9,
+  "saves": 3897,
+  "shares": 1700,
   "count": 40
  },
  "gender": {
-  "f": 1585,
-  "m": 1866
+  "f": 1586,
+  "m": 1870
  },
  "age": {
   "13-17": 1.3,
   "18-24": 16.7,
-  "25-34": 51.9,
+  "25-34": 51.8,
   "35-44": 17.9,
   "45-54": 8.5,
   "55-64": 3,
@@ -26,93 +26,86 @@
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 36.1,
+   "pct": 33.2,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.5,
+   "pct": 4.1,
    "lon": -43.17,
    "lat": -22.91
   },
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.9,
+   "pct": 1.8,
    "lon": -43.94,
    "lat": -19.92
   },
   {
    "name": "Guarulhos",
    "uf": "SP",
-   "pct": 1.7,
+   "pct": 1.5,
    "lon": -46.53,
    "lat": -23.46
   },
   {
-   "name": "Porto Alegre",
-   "uf": "RS",
-   "pct": 1.5,
-   "lon": -51.23,
-   "lat": -30.03
-  },
-  {
    "name": "Salvador",
    "uf": "BA",
-   "pct": 1.5,
+   "pct": 1.4,
    "lon": -38.51,
    "lat": -12.97
   },
   {
+   "name": "Porto Alegre",
+   "uf": "RS",
+   "pct": 1.3,
+   "lon": -51.23,
+   "lat": -30.03
+  },
+  {
    "name": "Curitiba",
    "uf": "PR",
-   "pct": 1.4,
+   "pct": 1.3,
    "lon": -49.27,
    "lat": -25.43
   },
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1,
    "lon": -46.79,
    "lat": -23.53
   },
   {
    "name": "Santo André",
    "uf": "SP",
-   "pct": 1,
+   "pct": 0.9,
    "lon": -46.54,
    "lat": -23.66
   },
   {
    "name": "São Bernardo do Campo",
    "uf": "SP",
-   "pct": 0.9,
+   "pct": 0.8,
    "lon": -46.56,
    "lat": -23.69
   },
   {
    "name": "Campinas",
    "uf": "SP",
-   "pct": 0.9,
+   "pct": 0.8,
    "lon": -47.06,
    "lat": -22.91
   },
   {
    "name": "Fortaleza",
    "uf": "CE",
-   "pct": 0.7,
+   "pct": 0.6,
    "lon": -38.52,
    "lat": -3.73
-  },
-  {
-   "name": "Goiânia",
-   "uf": "GO",
-   "pct": 0.6,
-   "lon": -49.25,
-   "lat": -16.68
   },
   {
    "name": "Florianópolis",
@@ -120,13 +113,6 @@
    "pct": 0.6,
    "lon": -48.55,
    "lat": -27.6
-  },
-  {
-   "name": "Ribeirão Prêto",
-   "uf": "SP",
-   "pct": 0.5,
-   "lon": -47.81,
-   "lat": -21.18
   },
   {
    "name": "Recife",
@@ -143,11 +129,18 @@
    "lat": -23.5
   },
   {
-   "name": "Carapicuíba",
-   "uf": "SP",
+   "name": "Goiânia",
+   "uf": "GO",
    "pct": 0.5,
-   "lon": null,
-   "lat": null
+   "lon": -49.25,
+   "lat": -16.68
+  },
+  {
+   "name": "Ribeirão Prêto",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": -47.81,
+   "lat": -21.18
   },
   {
    "name": "São José dos Campos",
@@ -185,11 +178,11 @@
    "lat": null
   },
   {
-   "name": "Manaus",
-   "uf": "AM",
+   "name": "Carapicuíba",
+   "uf": "SP",
    "pct": 0.4,
-   "lon": -60.02,
-   "lat": -3.12
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Juiz de Fora",
@@ -211,13 +204,6 @@
    "pct": 0.4,
    "lon": -48.5,
    "lat": -1.46
-  },
-  {
-   "name": "São Gonçalo",
-   "uf": "RJ",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
   },
   {
    "name": "São Caetano do Sul",
@@ -283,15 +269,15 @@
    "lat": null
   },
   {
-   "name": "Nova Iguaçu",
-   "uf": "RJ",
+   "name": "Manaus",
+   "uf": "AM",
    "pct": 0.3,
-   "lon": null,
-   "lat": null
+   "lon": -60.02,
+   "lat": -3.12
   },
   {
-   "name": "Cotia",
-   "uf": "SP",
+   "name": "Nova Iguaçu",
+   "uf": "RJ",
    "pct": 0.3,
    "lon": null,
    "lat": null
@@ -337,6 +323,20 @@
    "pct": 0.3,
    "lon": null,
    "lat": null
+  },
+  {
+   "name": "São Gonçalo",
+   "uf": "RJ",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Aracaju",
+   "uf": "SE",
+   "pct": 0.2,
+   "lon": -37.07,
+   "lat": -10.91
   }
  ]
 }
