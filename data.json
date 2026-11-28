@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-27T18:32:05.236Z",
- "followers": 5035,
+ "updated": "2026-11-28T17:14:28.345Z",
+ "followers": 5091,
  "reels": {
-  "best": 48600,
+  "best": 50620,
   "multiple": 10,
   "interaction": 19.6,
-  "saves": 6537,
-  "shares": 2934,
+  "saves": 6714,
+  "shares": 3018,
   "count": 40
  },
  "gender": {
-  "f": 1945,
-  "m": 2001
+  "f": 2070,
+  "m": 2046
  },
  "age": {
-  "13-17": 1.4,
-  "18-24": 15.9,
-  "25-34": 48.4,
-  "35-44": 18.6,
-  "45-54": 10.5,
-  "55-64": 3.9,
-  "65+": 1.3
+  "13-17": 1.6,
+  "18-24": 15.8,
+  "25-34": 47.3,
+  "35-44": 18.8,
+  "45-54": 10.9,
+  "55-64": 4.2,
+  "65+": 1.4
  },
  "cities": [
   {
    "name": "São Paulo",
    "uf": "SP",
-   "pct": 32.4,
+   "pct": 32.8,
    "lon": -46.63,
    "lat": -23.55
   },
   {
    "name": "Rio de Janeiro",
    "uf": "RJ",
-   "pct": 4.5,
+   "pct": 4.8,
    "lon": -43.17,
    "lat": -22.91
   },
   {
    "name": "Belo Horizonte",
    "uf": "MG",
-   "pct": 1.9,
+   "pct": 2,
    "lon": -43.94,
    "lat": -19.92
   },
@@ -75,7 +75,7 @@
   {
    "name": "Osasco",
    "uf": "SP",
-   "pct": 1.1,
+   "pct": 1,
    "lon": -46.79,
    "lat": -23.53
   },
@@ -89,14 +89,14 @@
   {
    "name": "Campinas",
    "uf": "SP",
-   "pct": 0.9,
+   "pct": 1,
    "lon": -47.06,
    "lat": -22.91
   },
   {
    "name": "São Bernardo do Campo",
    "uf": "SP",
-   "pct": 0.8,
+   "pct": 0.7,
    "lon": -46.56,
    "lat": -23.69
   },
@@ -108,25 +108,25 @@
    "lat": -3.73
   },
   {
+   "name": "Florianópolis",
+   "uf": "SC",
+   "pct": 0.7,
+   "lon": -48.55,
+   "lat": -27.6
+  },
+  {
+   "name": "Recife",
+   "uf": "PE",
+   "pct": 0.6,
+   "lon": -34.88,
+   "lat": -8.05
+  },
+  {
    "name": "Goiânia",
    "uf": "GO",
    "pct": 0.6,
    "lon": -49.25,
    "lat": -16.68
-  },
-  {
-   "name": "Florianópolis",
-   "uf": "SC",
-   "pct": 0.6,
-   "lon": -48.55,
-   "lat": -27.6
-  },
-  {
-   "name": "Belém",
-   "uf": "PA",
-   "pct": 0.6,
-   "lon": -48.5,
-   "lat": -1.46
   },
   {
    "name": "Ribeirão Prêto",
@@ -136,25 +136,32 @@
    "lat": -21.18
   },
   {
-   "name": "Jundiaí",
-   "uf": "SP",
-   "pct": 0.5,
-   "lon": null,
-   "lat": null
-  },
-  {
-   "name": "Recife",
-   "uf": "PE",
-   "pct": 0.5,
-   "lon": -34.88,
-   "lat": -8.05
-  },
-  {
    "name": "Sorocaba",
    "uf": "SP",
    "pct": 0.5,
    "lon": -47.45,
    "lat": -23.5
+  },
+  {
+   "name": "Manaus",
+   "uf": "AM",
+   "pct": 0.5,
+   "lon": -60.02,
+   "lat": -3.12
+  },
+  {
+   "name": "Belém",
+   "uf": "PA",
+   "pct": 0.5,
+   "lon": -48.5,
+   "lat": -1.46
+  },
+  {
+   "name": "São Gonçalo",
+   "uf": "RJ",
+   "pct": 0.5,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "São Luís",
@@ -165,6 +172,13 @@
   },
   {
    "name": "São José dos Campos",
+   "uf": "SP",
+   "pct": 0.4,
+   "lon": null,
+   "lat": null
+  },
+  {
+   "name": "Jundiaí",
    "uf": "SP",
    "pct": 0.4,
    "lon": null,
@@ -206,13 +220,6 @@
    "lat": null
   },
   {
-   "name": "Manaus",
-   "uf": "AM",
-   "pct": 0.4,
-   "lon": -60.02,
-   "lat": -3.12
-  },
-  {
    "name": "Diadema",
    "uf": "SP",
    "pct": 0.4,
@@ -234,13 +241,6 @@
    "lat": null
   },
   {
-   "name": "São Gonçalo",
-   "uf": "RJ",
-   "pct": 0.4,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Mogi das Cruzes",
    "uf": "SP",
    "pct": 0.3,
@@ -253,6 +253,13 @@
    "pct": 0.3,
    "lon": -54.65,
    "lat": -20.46
+  },
+  {
+   "name": "Duque de Caxias",
+   "uf": "RJ",
+   "pct": 0.3,
+   "lon": null,
+   "lat": null
   },
   {
    "name": "Ceilândia",
@@ -297,13 +304,6 @@
    "lat": null
   },
   {
-   "name": "Cotia",
-   "uf": "SP",
-   "pct": 0.3,
-   "lon": null,
-   "lat": null
-  },
-  {
    "name": "Aracaju",
    "uf": "SE",
    "pct": 0.3,
@@ -318,11 +318,11 @@
    "lat": null
   },
   {
-   "name": "Vitória",
-   "uf": "ES",
+   "name": "Embu das Artes",
+   "uf": "SP",
    "pct": 0.3,
-   "lon": -40.34,
-   "lat": -20.32
+   "lon": null,
+   "lat": null
   },
   {
    "name": "São José do Rio Prêto",
